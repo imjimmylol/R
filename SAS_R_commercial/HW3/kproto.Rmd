@@ -1,0 +1,172 @@
+---
+title: "K-prototype"
+---
+## 資料前處理
+```{r, message=FALSE, warning=FALSE}
+library(dummies)
+library(tidyverse)
+library(readr)
+library(clustMixType)
+getwd()
+setwd(".\\data")
+data1 <- read.csv("airline_survey.csv")
+sta <- function(x){
+  (x - min(x)) / (max(x) - min(x))
+}
+data1 <- data1[c(1:10000),]
+data1 <- data1[,-c(1,2)]
+
+data2 <- data1 %>%
+  mutate(
+    Age = sta(Age),
+    Flight.Distance = sta(Flight.Distance),
+    Departure.Delay.in.Minutes = sta(Departure.Delay.in.Minutes),
+    Arrival.Delay.in.Minutes = sta(Departure.Delay.in.Minutes)
+  )
+
+dummies=dummy.data.frame(data2)
+
+for(i in 12:25){
+  dummies[,i] = as.factor(dummies[,i])
+}
+dummies1 = dummies[,-c(2,4,7,10,23)]
+
+for(i in c(1,2,4,5,6,8:20,23,24)){
+  dummies1[,i] = as.factor(dummies1[,i])
+}
+```
+## 選定使用的算法(k-proto)
+
+### 1. 決定最佳群數，參考elbow method後選擇應選群(應選8群，但考量到分類太過細碎複雜，因此只選用7群)
+
+```{r cache=TRUE, message=FALSE, warning=FALSE, results=FALSE}
+Total_within_sum_of_sqare = c()
+Number_of_cluster_k = c(1:20)
+for(i in c(1:20)){
+  sse = kproto(x = dummies1,k=i ,iter.max = 100, nstart = 1)
+  Total_within_sum_of_sqare = append(Total_within_sum_of_sqare, sse$tot.withinss)
+}
+
+library(ggplot2)
+p_df = data.frame(
+  Total_within_sum_of_sqare = Total_within_sum_of_sqare,
+  Number_of_cluster_k = c(1:20)
+)
+```
+```{r}
+# visualiztion choose optim clus : 7
+ggplot(data = p_df, mapping = aes(x = Number_of_cluster_k, y = Total_within_sum_of_sqare))+
+  geom_line() + geom_point()+geom_vline(xintercept = 8)
+
+```
+
+### 2. 執行7群的分群結果，並檢視其滿意度之分布
+```{r, message=FALSE, warning=FALSE, cache=TRUE}
+c1 = kproto(x = dummies1,k=7 ,iter.max = 100, nstart = 1)
+clus_res = c()
+for(i in 1:length(c1$cluster)){
+  clus_res = append(clus_res,c1$cluster[[i]])
+}
+# append res to original data frame
+data1$clus_res = clus_res %>% as.factor()
+
+# check each clusters satisfation rate
+table(c1$cluster, data1$satisfaction)
+
+# satisfatory 1~5 to fact
+for(i in c(7:20)){
+  data1[,i] = as.factor(data1[,i]) 
+}
+```
+
+## 視覺畫呈現分群結果
+### 1. 自訂兩種繪圖函數
+```{r, message=FALSE, warning=FALSE}
+# two differnet ways to define a function with differnt type of for loop input(string v.s symble)
+library(tidyverse)
+# x_var for numeric
+dnes_plot_xvar_gvar <- function(df, x_var, group_var) {
+  df %>%
+    ggplot(aes(x = {{x_var}},
+               color = {{group_var}},
+               fill  = {{group_var}},
+               group = {{group_var}})) +
+    geom_histogram(aes(y = ..density..),
+                   alpha = 0.4, position = "identity") +
+    geom_density(size = 1, fill = NA)
+}
+
+# x_var for category
+dis_plot_xvar_gvar = function (data, column1, column2) {
+  ggplot(data, aes_string(x = column1, fill = column2)) +
+    geom_bar(position = position_dodge())+
+    guides(fill=guide_legend(title=sprintf('%s', column2)))+
+    xlab('clus_res')
+}
+
+```
+### 2. 檢視不同滿意度在不同群組中之分布(以食物滿意度、網路滿意度、性別為例)
+
+#### 結果描述:
+圖一: 性別除了在群4與5中有顯著差異外，其他皆無顯著差別
+
+圖二: 群1與群2對機上網路的服務評價很低，可檢視原因。組7滿意度特高
+
+圖三: 群4群5群6之食物滿意度很高
+```{r fig.height=5 , fig.width=20, message=FALSE, warning=FALSE, results=FALSE}
+gvar_c = vector(mode="list", length=19)
+li = which(sapply(1:(length(data1)-1), function(x)class(data1[,x])=='factor'))
+names(gvar_c) = sapply(li, function(x)names(data1)[x])
+for (i in names(gvar_c)) {
+  gvar_c[[i]] <- local({
+    dis_plot_xvar_gvar(column2 = i, column1 = 'clus_res',data = data1)
+  })
+}
+a = gvar_c$Gender
+b = gvar_c$Inflight.wifi.service
+c = gvar_c$Food.and.drink
+library(ggpubr)
+ggarrange(a,b,c, ncol = 3, nrow = 1, label = c('圖一', '圖二', '圖三'), size = 20)
+```
+
+### 3. 檢視不同滿意度在同群組中之分布
+
+#### 結果描述:
+圖一: 性別之分布在此群組中各個年齡層之差異
+
+圖二: 在此群組中年輕人普遍不滿意網路服務，但中年客群在此群組中相當滿意
+
+圖三: 在此群組中的年輕人對時間便利度相當不滿
+
+```{r fig.height=5 , fig.width=20, message=FALSE, warning=FALSE}
+# list for group var to store result 
+li = which(sapply(1:(length(data1)-1), function(x)class(data1[,x])=='factor'))
+gvar_d = vector(mode="list", length=19)
+names(gvar_d) = sapply(li, function(x)names(data1)[x])
+
+
+library(rlang)
+
+# age with diff catego####
+for (i in names(gvar_d)) {
+  gvar_d[[i]] <- local({
+    eval(substitute(dnes_plot_xvar_gvar(data1, x_var = Age , group_var = x),list (x = ensym(i))))
+  })
+  
+}
+
+a = gvar_d$Gender
+b = gvar_d$Inflight.wifi.service
+c = gvar_d$Departure.Arrival.time.convenient
+ggarrange(a,b,c, ncol = 3, nrow = 1, labels = c('圖一','圖二','圖三'))
+```
+
+
+
+
+
+
+
+
+
+
