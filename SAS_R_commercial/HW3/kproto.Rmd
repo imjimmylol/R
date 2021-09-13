@@ -161,12 +161,20 @@ c = gvar_d$Departure.Arrival.time.convenient
 ggarrange(a,b,c, ncol = 3, nrow = 1, labels = c('圖一','圖二','圖三'))
 ```
 
+###4. 檢視不同族群客戶的消費者行為與偏好
+
+#### 結果描述:
+由倉等與滿意度的比較，可發現普遍艙等愈高，客戶的滿足程度(滿意度)就越高。
+其中又以群1與群2代表取捨的極端。
+
+群1: 多數人選擇經濟艙，並對航空公司的滿意度呈現中立或不滿意
+
+群2: 多數人選擇商務艙，並以價格換取自己的滿足程度
 
 
+```{r fig.height=10 , fig.width=20, message=FALSE, warning=FALSE}
 
-
-
-
-
-
+e = gvar_c$Class
+f = gvar_c$satisfaction
+ggpubr::ggarrange(e, f, labels = c("艙等", "滿意度"), ncol = 2, nrow = 1)
 

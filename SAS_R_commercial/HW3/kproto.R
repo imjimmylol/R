@@ -125,3 +125,6 @@ for (i in names(gvar_c)) {
 gvar_c$Gender
 gvar_c$Inflight.wifi.service
 gvar_c$Food.and.drink
+# a = gvar_c$Class
+# b = gvar_c$satisfaction
+# ggpubr::ggarrange(a, b, labels = c("艙等", "滿意度"), ncol = 2, nrow = 1)
