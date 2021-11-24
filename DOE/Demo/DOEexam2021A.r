@@ -16,24 +16,29 @@ tapply(plant[,1],INDEX=plant[,2],mean) #製作trearment mean i.e. y_i.            
 tapply(plant[,1],INDEX=plant[,2],sd)   #製作trearment std
 round(tapply(plant[,1],INDEX=plant[,2],sd),2)
 
-plot(grain~density,data=plant,pch=16,col=3,cex=1.5)       # Figure 3.2,  p. 85
+plot(grain~density,data=plant,pch=16,col=3,cex=1.5)    # Figure 3.2,  p. 85
 
 
 ################
-plant.fit1 <- lm(grain~as.factor(density),data=plant)
+plant.fit1 <- lm(grain~as.factor(density),data=plant) # 按照英文字順序或數字做為回歸的base line
 summary(plant.fit1)
+model.matrix(plant.fit1)
 anova(plant.fit1)                                                     # Table 3.5,  p. 88
+# aov(grain~as.factor(density),data=plant)
+# qf(0.95, 4, 10) f-value
+# 1 - pf(29.28, 4, 10) p-value
+
 
 ##########################
 
 palnt.aov1 <- aov(grain~as.factor(density),data=plant)
 summary(palnt.aov1)
 
-TukeyHSD(palnt.aov1) 
-plot(TukeyHSD(palnt.aov1),las=1)
+TukeyHSD(palnt.aov1) # 對aov結果進行更多處理
+plot(TukeyHSD(palnt.aov1),las=1) # 沒有包含0 reject Ho(有差異)
 
 library(agricolae)
-palnt.LSD <- LSD.test(palnt.aov1, "as.factor(density)")
+palnt.LSD <- LSD.test(palnt.aov1, "as.factor(density)") 
 palnt.Tukey <- HSD.test(palnt.aov1, "as.factor(density)")
 palnt.Scheffe <- scheffe.test(palnt.aov1, "as.factor(density)")
 palnt.Duncan <- duncan.test(palnt.aov1, "as.factor(density)")
@@ -42,7 +47,13 @@ palnt.SNK <- SNK.test(palnt.aov1, "as.factor(density)")
 
 ##########################################
 
-c4 <- contr.poly(5)
+
+# 製作 on poly
+# c4 <- contr.poly(5) # 5個level
+# x = scale(c4, scale = 1/sqrt(scan())) # 10 14 10 70
+# x1 = zapsmall(x, digits = 15)
+# p1 = cbind(1, x1)
+
 
 library(car)
 Anova(lm1 <- lm(grain~C(as.factor(density),c4[,1],1),data=plant), type="III")          #          but F value is different   # 
@@ -69,7 +80,7 @@ orth.x <- matrix(rep(c(x1),rep(3,20)),ncol=4)
 data.frame(plant,orth.x)
 
 sum1 <- tapply(plant[,1],INDEX=plant[,2],mean) %*%p1
-divisor1 <- diag(t(p1)%*%p1)
+divisor1 <- diag(t(p1)%*%p1) 
 3*sum1^2/divisor1
 sum1/divisor1
 ##########################
@@ -104,10 +115,10 @@ points(densityA,tapply(plant[,1],INDEX=plant[,2],mean) ,col=6,pch=16)
 ##############################################################
 #   p. 35, ex 1.12
 ##############################################################
-Trt3 <- c('A','B','B','A','A','B')
+Trt3 <- c('A','B','B','A','A','B')  
 Y <- c(7,10,9, 5,10,12)
 
-Bset <- combn(c(1:6),3)
+Bset <- combn(c(1:6),3) #隨機assign 1,2, 3排A, 其他排B
 A <- which(Trt3=='A')
 mean0 <- mean(Y[A])-mean(Y[-A])
 mean1 <- c()
