@@ -8,8 +8,12 @@ grain <- c(12.2,11.4,12.4,16.0,15.5,16.5,18.6,20.2,18.2,17.6,19.3,17.1,18.0,16.4
 density <- rep(seq(10,50,by=10),rep(3,5))
 plant <- data.frame(grain,density)
 
-tapply(plant[,1],INDEX=plant[,2],mean)             # Table 3.3
-tapply(plant[,1],INDEX=plant[,2],sd)   
+# apply(plant, 1, mean) 1為對row r為對col
+# apply(plant^2, 2, sum)
+
+
+tapply(plant[,1],INDEX=plant[,2],mean) #製作trearment mean i.e. y_i.            # Table 3.3
+tapply(plant[,1],INDEX=plant[,2],sd)   #製作trearment std
 round(tapply(plant[,1],INDEX=plant[,2],sd),2)
 
 plot(grain~density,data=plant,pch=16,col=3,cex=1.5)       # Figure 3.2,  p. 85
