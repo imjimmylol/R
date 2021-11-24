@@ -130,4 +130,4 @@ for (i in 1:NIT){
      cat(i,Trt1,mean1[i],'\n')
 }
 
-sum(mean1<=mean0)/NIT
+sum(mean1<=mean0)/NIT # p-value > 0.05
