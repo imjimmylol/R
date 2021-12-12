@@ -1,0 +1,109 @@
+# read data####
+setwd("C:/Users/user/Desktop/R/DOE/Data")
+library(readr)
+library(dplyr)
+library(ggplot2)
+df = as_tibble(read.csv("covid_data_pain.csv", encoding = "CP950"))
+
+df = df[c(1,2,8:10)]
+
+# wash data####
+summary(df$AGE_YRS)
+age = c()
+for(i in df$AGE_YRS){
+  if(15<i & i<=35){
+    age = append(age, "15~35")
+  }
+  else if(35<i & i<=55){
+    age = append(age, "35~55")
+  }
+  else if(55<i & i<=75){
+    age = append(age, "55~75")
+  }
+  else{
+    age = append(age, "75~95")
+  }
+}
+df$age = age
+
+df_ijk_trans  = function(df, age, pain, vax){
+  df_res = df %>% filter(age == age & Pain_type == pain & VAX_MANU==vax)
+  return(df_res)
+}
+
+age_iter = c("15~35", "35~55", "55~75", "75~95")
+# pain_iter = c("¥|ªÏµh", "¨ä¥Lµh", "ÀYÀVµh", "Âß·Fµh")
+pain_iter = c("¥|ªÏµh", "ÀYÀVµh", "Âß·Fµh")
+vax_iter = c("MODERNA", "PFIZER\\BIONTECH", "JANSSEN") 
+
+df = df %>% filter(Pain_type!="¨ä¥Lµh")
+
+
+
+# calculate cell mean####
+library(hash)
+magic = function(df){
+  res = hash()
+  p = sum(df$DIED=="Y")/(length(df$DIED))
+  n = df %>% nrow()
+  q = 1-p
+  res[["n_obs"]] = n 
+  res[["mean"]] = n*p
+  res[["std"]] = n*p*q
+  return(res)
+  
+}
+
+n_obs =  c()
+cell_mean = c()
+cell_std = c()
+
+
+for(k in vax_iter){
+  for(i in age_iter){
+    for(j in pain_iter){
+      tmp = magic(df_ijk_trans(df, age = i,pain = j, vax = k))
+      n_obs = append(n_obs, tmp$n_obs)
+      cell_mean = append(cell_mean, tmp$mean)
+      cell_std = append(cell_std, tmp$std)
+      }
+    }
+}
+coln = age_iter 
+rown = pain_iter
+
+# "MODERNA"
+matrix(c(n_obs[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(n_obs[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(n_obs[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+
+# "PFIZER\\BIONTECH"
+matrix(c(n_obs[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(n_obs[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(n_obs[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+
+# "JANSSEN"
+matrix(c(n_obs[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(n_obs[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(n_obs[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+
+
+
+######
+# for(k in vax_iter){
+#   for(i in age_iter){
+#     for(j in pain_iter){
+#       print(df_ijk_trans(df, age = i,pain = j, vax = k) %>% nrow())
+#       print(c(i,j,k))
+#       print("====================")
+#       if(df_ijk_trans(df, age = i,pain = j, vax = k) %>% nrow()==0){
+#         # print(c(i,j,k))
+#       }
+#     }
+#   }
+# }
+
+
+
+
+

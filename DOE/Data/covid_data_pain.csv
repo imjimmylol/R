@@ -1,0 +1,987 @@
+SEX,DIED,SYMPTOM1,SYMPTOM2,SYMPTOM3,SYMPTOM4,SYMPTOM5,VAX_MANU,AGE_YRS,Pain_type
+F,N,Headache,Heart rate increased,Injection site erythema,Injection site pain,Injection site swelling,MODERNA,22.0,ÀYÀVµh
+M,N,Back pain,Cold sweat,Headache,Nausea,Vomiting,MODERNA,27.0,Âß·Fµh
+F,N,Axillary pain,Injection site erythema,Injection site induration,Injection site pain,Injection site warmth,MODERNA,33.0,¥|ªÏµh
+F,N,Headache,Muscle spasms,Nausea,Pain,Pyrexia,PFIZER\BIONTECH,61.0,ÀYÀVµh
+F,N,Back pain,Fatigue,Headache,Injected limb mobility decreased,Injection site bruising,MODERNA,26.0,Âß·Fµh
+F,N,Back pain,Chills,Dizziness,Injection site pain,Nausea,PFIZER\BIONTECH,28.0,Âß·Fµh
+F,N,Ear pain,Facial paralysis,Facial paresis,Fatigue,Headache,PFIZER\BIONTECH,30.0,ÀYÀVµh
+F,N,Headache,Hypersomnia,Influenza A virus test negative,Influenza B virus test,Influenza virus test negative,MODERNA,54.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site pain,Injection site pruritus,MODERNA,39.0,ÀYÀVµh
+F,N,Oropharyngeal pain,Pyrexia,SARS-CoV-2 test,Urinary incontinence,Wheezing,PFIZER\BIONTECH,30.0,¨ä¥Lµh
+F,N,Eye pain,Headache,Herpes zoster,Lymph node pain,Lymphadenopathy,PFIZER\BIONTECH,33.0,ÀYÀVµh
+M,N,Abdominal pain upper,Fatigue,Headache,Pain,SARS-CoV-2 test negative,PFIZER\BIONTECH,27.0,¥|ªÏµh
+M,N,Headache,Hypersomnia,Injection site pain,Pain,Pyrexia,MODERNA,37.0,ÀYÀVµh
+F,N,Back pain,Chest pain,Neck pain,Pain,Paraesthesia,MODERNA,43.0,Âß·Fµh
+F,N,Abdominal pain,Diarrhoea,Fatigue,Injection site pain,Myalgia,PFIZER\BIONTECH,40.0,¥|ªÏµh
+F,N,Back pain,Chills,Fatigue,Injection site pain,Nausea,MODERNA,47.0,Âß·Fµh
+F,N,Abdominal pain,Chills,Hyperhidrosis,Injection site pain,Pyrexia,PFIZER\BIONTECH,23.0,¥|ªÏµh
+F,N,Back pain,Chills,Fatigue,Headache,Nausea,MODERNA,51.0,Âß·Fµh
+M,N,Back pain,Chills,Headache,Hyperhidrosis,Pyrexia,MODERNA,42.0,Âß·Fµh
+F,N,Headache,Impaired work ability,Injection site pain,Injection site swelling,Malaise,MODERNA,54.0,ÀYÀVµh
+F,N,Neck pain,Oxygen saturation decreased,Pain in extremity,Palpitations,Pyrexia,MODERNA,46.0,ÀYÀVµh
+F,N,Axillary pain,Bone pain,Chills,Induration,Mobility decreased,PFIZER\BIONTECH,32.0,¥|ªÏµh
+F,N,Chest pain,Dizziness,Nausea,Nervousness,Paraesthesia,MODERNA,40.0,Âß·Fµh
+F,N,Headache,Impaired driving ability,Injection site erythema,Injection site pain,Injection site swelling,PFIZER\BIONTECH,54.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site pruritus,Injection site swelling,MODERNA,38.0,ÀYÀVµh
+F,N,Pain in extremity,Pruritus,Rash,Rash erythematous,Rash maculo-papular,MODERNA,30.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Asthenia,Back pain,Fatigue,Headache,MODERNA,51.0,¥|ªÏµh
+F,N,Headache,Myalgia,Pain,Pruritus,SARS-CoV-2 test negative,MODERNA,62.0,ÀYÀVµh
+F,N,Axillary pain,Fatigue,Headache,Limb discomfort,Lymphadenopathy,PFIZER\BIONTECH,30.0,¥|ªÏµh
+F,N,Axillary pain,Injection site erythema,Injection site induration,Injection site pain,Injection site swelling,MODERNA,54.0,¥|ªÏµh
+F,N,Headache,Influenza like illness,Irritability,Limb discomfort,Malaise,PFIZER\BIONTECH,42.0,ÀYÀVµh
+M,N,Headache,Laboratory test normal,Musculoskeletal stiffness,Neck pain,Red blood cell sedimentation rate normal,MODERNA,72.0,ÀYÀVµh
+M,N,Abdominal pain,Dizziness,Headache,Nausea,Pyrexia,MODERNA,65.0,¥|ªÏµh
+F,N,Headache,Nasal congestion,Neck pain,Pain,Pain in extremity,MODERNA,60.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia,Immediate post-injection reaction,Injection site bruising,Mobility decreased,MODERNA,64.0,ÀYÀVµh
+F,N,Axillary pain,Back pain,Headache,Injection site erythema,Injection site pruritus,MODERNA,22.0,¥|ªÏµh
+F,N,Chest pain,Decreased appetite,Dyspnoea,Hypoaesthesia,Myalgia,PFIZER\BIONTECH,30.0,Âß·Fµh
+F,N,Chest pain,Dizziness,Erythema,Fatigue,Feeling hot,PFIZER\BIONTECH,25.0,Âß·Fµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site pruritus,Injection site swelling,MODERNA,79.0,ÀYÀVµh
+F,N,Headache,Hyperhidrosis,Insomnia,Musculoskeletal stiffness,Nausea,MODERNA,36.0,ÀYÀVµh
+M,N,Axillary pain,Joint range of motion decreased,Mobility decreased,Neuralgia,Pain,PFIZER\BIONTECH,25.0,¥|ªÏµh
+F,N,Headache,Hot flush,Hypoaesthesia,Insomnia,Loss of personal independence in daily activities,PFIZER\BIONTECH,46.0,ÀYÀVµh
+F,N,Abdominal pain,Chills,Heart rate decreased,Hypotension,Hypothermia,MODERNA,50.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site warmth,Sensory disturbance,MODERNA,44.0,ÀYÀVµh
+F,N,Headache,Malaise,Myalgia,Neck pain,Pain in extremity,PFIZER\BIONTECH,62.0,ÀYÀVµh
+M,N,Back pain,Body temperature increased,Chills,Fatigue,Headache,MODERNA,64.0,Âß·Fµh
+M,N,Headache,Hot flush,Hyperhidrosis,Pain,Pyrexia,MODERNA,41.0,ÀYÀVµh
+F,N,Abdominal pain upper,Dizziness,Headache,Injection site erythema,Injection site pain,MODERNA,31.0,¥|ªÏµh
+F,N,Pain in extremity,Paraesthesia,Pruritus,Rash,Urticaria,PFIZER\BIONTECH,31.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Chills,Headache,Hypoaesthesia,Nausea,MODERNA,44.0,¥|ªÏµh
+F,N,Headache,Hypoaesthesia,Muscular weakness,Pain,Pain in extremity,PFIZER\BIONTECH,35.0,ÀYÀVµh
+F,N,Back pain,Dysgeusia,Flushing,Headache,Hyperhidrosis,PFIZER\BIONTECH,22.0,Âß·Fµh
+F,N,Abdominal pain,Balance disorder,Decreased appetite,Dizziness postural,Headache,PFIZER\BIONTECH,31.0,¥|ªÏµh
+M,N,Headache,Immunoglobulin therapy,Malaise,Pain,Pain in extremity,MODERNA,18.0,ÀYÀVµh
+F,N,Back pain,Body temperature increased,Chest X-ray normal,Chest pain,Dyspnoea,PFIZER\BIONTECH,41.0,Âß·Fµh
+F,N,Pain in extremity,Vaccination site erythema,Vaccination site inflammation,Vaccination site mass,Vaccination site rash,MODERNA,32.0,¨ä¥Lµh
+F,N,Pain in extremity,Paraesthesia,Pruritus,Pyrexia,Swelling,MODERNA,59.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Ageusia,Anosmia,Arthralgia,Asthenia,MODERNA,45.0,¥|ªÏµh
+F,N,Chest pain,Fatigue,Injection site pain,Loss of personal independence in daily activities,Myalgia,PFIZER\BIONTECH,29.0,Âß·Fµh
+F,N,Back pain,Body temperature increased,Dysgeusia,Headache,Hypoaesthesia oral,MODERNA,65.0,Âß·Fµh
+F,N,Chest pain,Injection site pain,Lymph node pain,Lymphadenopathy,Musculoskeletal chest pain,PFIZER\BIONTECH,34.0,Âß·Fµh
+F,N,Axillary pain,Chills,Injection site erythema,Injection site pruritus,Injection site swelling,MODERNA,31.0,¥|ªÏµh
+F,N,Headache,Heart rate increased,Migraine,Pain,Pyrexia,PFIZER\BIONTECH,22.0,ÀYÀVµh
+F,N,Oropharyngeal pain,Pyrexia,Respiratory syncytial virus test negative,SARS-CoV-2 test negative,Streptococcus test negative,PFIZER\BIONTECH,29.0,¨ä¥Lµh
+M,N,Headache,Pain,Photophobia,Pyrexia,SARS-CoV-2 test positive,PFIZER\BIONTECH,39.0,ÀYÀVµh
+F,N,Headache,Hot flush,Immediate post-injection reaction,Injection site rash,Peripheral swelling,MODERNA,46.0,ÀYÀVµh
+F,N,Headache,Hot flush,Lethargy,Nausea,Neck pain,MODERNA,27.0,ÀYÀVµh
+F,N,Headache,Neck pain,Pain in extremity,Peripheral swelling,Rash,PFIZER\BIONTECH,52.0,ÀYÀVµh
+F,N,Abdominal pain,Constipation,Flatulence,Injection site pain,Metrorrhagia,MODERNA,44.0,¥|ªÏµh
+F,N,Pain in extremity,Peripheral swelling,Pruritus,Pyrexia,Urticaria,PFIZER\BIONTECH,36.0,¨ä¥Lµh
+F,N,Abdominal pain,Chills,Decreased appetite,Fatigue,Headache,MODERNA,49.0,¥|ªÏµh
+F,N,Axillary pain,Injected limb mobility decreased,Injection site oedema,Injection site pain,Injection site reaction,MODERNA,53.0,¥|ªÏµh
+M,N,Abdominal pain,Anaphylactic reaction,Diarrhoea,Headache,Lacrimation increased,MODERNA,40.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site warmth,Pyrexia,MODERNA,50.0,ÀYÀVµh
+F,N,Abdominal pain upper,Feeling hot,Hot flush,Hyperhidrosis,Nausea,PFIZER\BIONTECH,49.0,¥|ªÏµh
+F,N,Back pain,Depressed level of consciousness,Headache,Immediate post-injection reaction,Muscle spasms,PFIZER\BIONTECH,31.0,Âß·Fµh
+F,N,Abdominal pain upper,Arthralgia,Chills,Cough,Fatigue,MODERNA,38.0,¥|ªÏµh
+F,N,Headache,Injection site pain,Nausea,Oropharyngeal pain,Pain,MODERNA,38.0,ÀYÀVµh
+F,N,Headache,Nasopharyngitis,Nausea,Pyrexia,Sleep disorder,PFIZER\BIONTECH,25.0,ÀYÀVµh
+F,N,Back pain,Chest pain,Chills,Headache,Hot flush,MODERNA,50.0,Âß·Fµh
+F,N,Headache,Lymphadenopathy,Neck mass,Pain of skin,Ultrasound scan abnormal,PFIZER\BIONTECH,24.0,ÀYÀVµh
+F,N,Back pain,Joint range of motion decreased,Mobility decreased,Neck pain,Pain in extremity,MODERNA,59.0,Âß·Fµh
+F,N,Pain in extremity,Pyrexia,Respiratory tract congestion,SARS-CoV-2 test positive,Tachycardia,PFIZER\BIONTECH,38.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Back pain,Gait disturbance,Injection site pain,Mobility decreased,PFIZER\BIONTECH,54.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Diarrhoea,Fatigue,Headache,PFIZER\BIONTECH,24.0,¥|ªÏµh
+F,N,Headache,Induration,Injection site rash,Lymph node pain,Lymphadenopathy,MODERNA,33.0,ÀYÀVµh
+F,N,Back pain,Chills,Injection site pain,Injection site swelling,Malaise,MODERNA,56.0,Âß·Fµh
+F,N,Abdominal pain lower,Arthralgia,Asthenia,Dizziness,Injection site pain,PFIZER\BIONTECH,49.0,¥|ªÏµh
+M,N,Back pain,Chest X-ray normal,Laboratory test,Renal function test normal,Urine analysis normal,PFIZER\BIONTECH,53.0,Âß·Fµh
+M,N,Gingival pain,Hypoaesthesia,Paraesthesia,Swelling face,Toothache,PFIZER\BIONTECH,46.0,ÀYÀVµh
+F,N,Ear pain,Fatigue,Nausea,Pain,Respiratory tract congestion,MODERNA,30.0,ÀYÀVµh
+F,N,Axillary pain,Injection site erythema,Injection site nodule,Injection site pruritus,Pruritus,MODERNA,35.0,¥|ªÏµh
+F,N,Headache,Injection site pain,Myalgia,Nausea,Pyrexia,MODERNA,49.0,ÀYÀVµh
+F,N,Abdominal pain,Chest pain,Cholecystectomy,Diarrhoea,Injection site rash,MODERNA,26.0,¥|ªÏµh
+M,N,Headache,Impaired work ability,Lethargy,Pain in extremity,Pyrexia,PFIZER\BIONTECH,61.0,ÀYÀVµh
+F,N,Pain in extremity,Palpitations,Pyrexia,Sleep disorder,Tachycardia,MODERNA,32.0,¨ä¥Lµh
+F,N,Ear pain,Erythema,Fatigue,Oropharyngeal pain,Pyrexia,PFIZER\BIONTECH,24.0,ÀYÀVµh
+F,N,Axillary pain,Chest X-ray normal,Chest pain,Electrocardiogram normal,Injection site erythema,MODERNA,30.0,¥|ªÏµh
+F,N,Lymph node pain,Pain in extremity,Paraesthesia,Rash,Vision blurred,MODERNA,30.0,¥|ªÏµh
+F,N,Abdominal pain,Back pain,Diarrhoea,Diarrhoea haemorrhagic,Headache,MODERNA,56.0,¥|ªÏµh
+F,N,Abdominal pain,Anaphylactic shock,Blood gases,Blood lactic acid,Blood test,PFIZER\BIONTECH,56.0,¥|ªÏµh
+F,N,Back pain,Condition aggravated,Injection site erythema,Injection site rash,Sciatica,MODERNA,64.0,Âß·Fµh
+F,N,Abdominal pain upper,Dizziness,Nausea,Nervousness,Sleep disorder,MODERNA,40.0,¥|ªÏµh
+F,N,Oropharyngeal pain,Pain in extremity,Pyrexia,Respiratory tract congestion,Rhinorrhoea,PFIZER\BIONTECH,30.0,¨ä¥Lµh
+M,N,Headache,Injection site pain,Lip swelling,Oropharyngeal pain,SARS-CoV-2 test,MODERNA,28.0,ÀYÀVµh
+M,N,Headache,Musculoskeletal stiffness,Occupational exposure to SARS-CoV-2,Pain,Rhinorrhoea,PFIZER\BIONTECH,46.0,ÀYÀVµh
+M,N,Headache,Hyperhidrosis,Limb discomfort,Nervousness,Pain,MODERNA,42.0,ÀYÀVµh
+F,N,Abdominal pain,Asthenia,Chills,Dizziness,Dyspnoea,MODERNA,20.0,¥|ªÏµh
+F,N,Axillary pain,Induration,Injection site pain,Lymphadenopathy,Oedema peripheral,PFIZER\BIONTECH,30.0,¥|ªÏµh
+M,N,Pain in extremity,Pain in jaw,Pruritus,Rash,Rash erythematous,MODERNA,36.0,¨ä¥Lµh
+F,N,Back pain,Dry mouth,Fatigue,Headache,Injection site pain,PFIZER\BIONTECH,39.0,Âß·Fµh
+M,N,Abdominal pain lower,Abdominal pain upper,Appendicectomy,Appendicitis,Computerised tomogram abdomen abnormal,MODERNA,45.0,¥|ªÏµh
+F,N,Headache,Hyperhidrosis,Hypoaesthesia,Immediate post-injection reaction,Injection site pain,MODERNA,28.0,ÀYÀVµh
+F,N,Headache,Hypersomnia,Impaired work ability,Injection site pain,Injection site swelling,MODERNA,54.0,ÀYÀVµh
+F,N,Headache,Injection site mass,Injection site pain,Injection site swelling,Malaise,MODERNA,35.0,ÀYÀVµh
+F,N,Back pain,Chills,Dizziness,Headache,Hot flush,MODERNA,28.0,Âß·Fµh
+F,N,Headache,Hyperglycaemia,Liver function test increased,Lymphopenia,Pain,PFIZER\BIONTECH,28.0,ÀYÀVµh
+F,N,Headache,Hypersomnia,Malaise,Pain,Pyrexia,PFIZER\BIONTECH,49.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site oedema,Injection site pain,Injection site urticaria,MODERNA,25.0,ÀYÀVµh
+F,N,Abdominal pain,Chills,Colostomy,Computerised tomogram abdomen,Computerised tomogram abnormal,PFIZER\BIONTECH,63.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site pruritus,Injection site swelling,MODERNA,40.0,ÀYÀVµh
+F,N,Chest pain,Dyspnoea,Headache,Musculoskeletal stiffness,Oropharyngeal pain,PFIZER\BIONTECH,53.0,Âß·Fµh
+F,N,Headache,Injection site pain,Nausea,Pain,Pyrexia,PFIZER\BIONTECH,59.0,ÀYÀVµh
+M,N,Abdominal pain,Appendicectomy,Appendicitis,Computerised tomogram,Condition aggravated,PFIZER\BIONTECH,45.0,¥|ªÏµh
+F,N,Headache,Influenza virus test negative,Nausea,Pain,Pyrexia,MODERNA,43.0,ÀYÀVµh
+F,N,Back pain,Blood test,Dizziness,Eye irritation,Heart rate increased,MODERNA,55.0,Âß·Fµh
+F,N,Bone pain,Confusional state,Dizziness,Fatigue,Feeling abnormal,MODERNA,32.0,¨ä¥Lµh
+F,N,Headache,Hyperhidrosis,Mobility decreased,Myalgia,Pain,MODERNA,32.0,ÀYÀVµh
+F,N,Abdominal pain,Axillary pain,Breast pain,Burning sensation,Chills,PFIZER\BIONTECH,46.0,¥|ªÏµh
+F,N,Headache,Hyperhidrosis,Oedema peripheral,Pain in extremity,Paraesthesia,PFIZER\BIONTECH,36.0,ÀYÀVµh
+F,N,Pain in extremity,Red blood cell sedimentation rate normal,SARS-CoV-2 antibody test,SARS-CoV-2 test negative,Sensory disturbance,PFIZER\BIONTECH,36.0,¨ä¥Lµh
+F,N,Chest pain,Dizziness,Electrocardiogram,Epinephrine,Heart rate decreased,PFIZER\BIONTECH,57.0,Âß·Fµh
+F,N,Abdominal pain,Appendicectomy,Appendicitis,Appendicolith,Computerised tomogram abdomen abnormal,PFIZER\BIONTECH,36.0,¥|ªÏµh
+F,N,Abdominal pain upper,Body temperature decreased,Dizziness,Dysphagia,Dyspnoea,PFIZER\BIONTECH,55.0,¥|ªÏµh
+F,N,Axillary pain,Chills,Headache,Injection site erythema,Injection site nodule,MODERNA,46.0,¥|ªÏµh
+F,N,Axillary pain,Injection site erythema,Injection site pruritus,Injection site rash,Lymphadenopathy,MODERNA,32.0,¥|ªÏµh
+F,N,Axillary pain,Blood test,Headache,Injection site erythema,Injection site rash,PFIZER\BIONTECH,38.0,¥|ªÏµh
+F,N,Back pain,Dysgeusia,Headache,Malaise,Nausea,PFIZER\BIONTECH,40.0,Âß·Fµh
+F,N,Headache,Injection site pain,Mobility decreased,Neck pain,Sleep disorder,MODERNA,26.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia oral,Lacrimation increased,Rhinorrhoea,Throat irritation,PFIZER\BIONTECH,38.0,ÀYÀVµh
+F,N,Abdominal pain upper,Diarrhoea,Fatigue,Nausea,Pain in extremity,MODERNA,35.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site induration,Muscle spasms,Pain in extremity,MODERNA,50.0,ÀYÀVµh
+F,N,Axillary pain,Injection site erythema,Injection site induration,Injection site pruritus,Injection site reaction,MODERNA,41.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site pruritus,Vaccination site bruising,Vaccination site pain,MODERNA,52.0,ÀYÀVµh
+F,N,Abdominal pain,Back pain,Burning sensation,Herpes zoster,Hyperaesthesia,PFIZER\BIONTECH,48.0,¥|ªÏµh
+F,N,Abdominal pain,Colitis ulcerative,Condition aggravated,Diarrhoea,Nausea,MODERNA,37.0,¥|ªÏµh
+F,N,Oropharyngeal pain,Paranasal sinus hypersecretion,Pharyngitis,Respiratory tract congestion,SARS-CoV-2 test negative,PFIZER\BIONTECH,40.0,¨ä¥Lµh
+F,N,Abdominal pain,Chills,Headache,Pain,Pyrexia,PFIZER\BIONTECH,27.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site pruritus,Injection site swelling,MODERNA,49.0,ÀYÀVµh
+F,N,Headache,Myalgia,Nausea,Pain in extremity,Pyrexia,MODERNA,38.0,ÀYÀVµh
+F,N,Axillary pain,Erythema,Induration,Skin warm,Swelling,MODERNA,43.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Dizziness,Fatigue,Headache,PFIZER\BIONTECH,32.0,¥|ªÏµh
+F,N,Pain in extremity,Rhinorrhoea,SARS-CoV-2 test negative,Skin warm,Vertigo,PFIZER\BIONTECH,32.0,¨ä¥Lµh
+F,N,Back pain,Blood pressure increased,Chest discomfort,Fatigue,Herpes zoster,PFIZER\BIONTECH,46.0,Âß·Fµh
+F,N,Back pain,Chills,Eye pruritus,Fatigue,SARS-CoV-2 test negative,MODERNA,47.0,Âß·Fµh
+F,N,Abdominal pain,Diarrhoea,Fatigue,Lymphadenopathy,Nausea,PFIZER\BIONTECH,35.0,¥|ªÏµh
+F,N,Headache,Injection site pain,Myalgia,Nausea,Night sweats,MODERNA,25.0,ÀYÀVµh
+M,N,Axillary pain,Headache,Injection site swelling,Injection site urticaria,Injection site warmth,MODERNA,24.0,¥|ªÏµh
+F,N,Chest pain,Chills,Dyspnoea,Fatigue,Headache,MODERNA,22.0,Âß·Fµh
+F,N,Axillary pain,Injection site discomfort,Injection site erythema,Injection site induration,Injection site nodule,MODERNA,38.0,¥|ªÏµh
+F,N,Abdominal pain,Diarrhoea,Dysuria,Headache,Myalgia,MODERNA,49.0,¥|ªÏµh
+F,N,Abdominal pain,Arthralgia,Headache,Heart rate increased,Hyperhidrosis,MODERNA,35.0,¥|ªÏµh
+F,N,Axillary pain,Diarrhoea,Injection site pain,Lymph node pain,Lymphadenopathy,MODERNA,54.0,¥|ªÏµh
+F,N,Chest pain,Chills,Dyspnoea,Headache,Myalgia,MODERNA,28.0,Âß·Fµh
+F,N,Axillary pain,Injection site pain,Injection site warmth,Pain,Tenderness,MODERNA,51.0,¥|ªÏµh
+F,N,Abdominal pain,Arthralgia,Headache,Injection site erythema,Injection site pain,MODERNA,30.0,¥|ªÏµh
+F,N,Pain in extremity,Pruritus,Rash,Rash erythematous,Rash papular,MODERNA,71.0,¨ä¥Lµh
+F,N,Axillary pain,Injection site erythema,Injection site mass,Injection site pruritus,Injection site swelling,MODERNA,39.0,¥|ªÏµh
+F,N,Abdominal pain,Abortion spontaneous,Human chorionic gonadotropin decreased,Ultrasound antenatal screen abnormal,Uterine haemorrhage,PFIZER\BIONTECH,34.0,¥|ªÏµh
+M,N,Headache,Malaise,Ophthalmological examination,Physical examination,Rash,PFIZER\BIONTECH,67.0,ÀYÀVµh
+F,N,Abdominal pain upper,Body temperature increased,Burning sensation,Chills,Dysgeusia,PFIZER\BIONTECH,46.0,¥|ªÏµh
+F,N,Headache,Injection site nodule,Lymph node pain,Lymphadenopathy,Sleep disorder,MODERNA,54.0,ÀYÀVµh
+F,N,Ear pain,Facial pain,Fatigue,Headache,Migraine,MODERNA,45.0,ÀYÀVµh
+M,N,Headache,Injection site pain,Nausea,Pain,Pyrexia,MODERNA,26.0,ÀYÀVµh
+F,N,Bone pain,Chills,Headache,Myalgia,Neck pain,PFIZER\BIONTECH,44.0,¨ä¥Lµh
+F,N,Axillary pain,Bacterial infection,Injection site erythema,Injection site pain,Injection site reaction,MODERNA,28.0,¥|ªÏµh
+F,N,Axillary pain,Breast pain,Cellulitis,Injected limb mobility decreased,Injection site erythema,MODERNA,35.0,¥|ªÏµh
+F,N,Chest pain,Confusional state,Decreased appetite,Dizziness,Feeling of body temperature change,PFIZER\BIONTECH,50.0,Âß·Fµh
+F,N,Abdominal pain upper,Chills,Cough,Diarrhoea,Dizziness,PFIZER\BIONTECH,69.0,¥|ªÏµh
+F,N,Axillary pain,Hypoaesthesia,Injection site erythema,Injection site rash,Pain,MODERNA,53.0,¥|ªÏµh
+F,N,Headache,Nausea,Pain,Pain in extremity,Pyrexia,MODERNA,21.0,ÀYÀVµh
+F,N,Axillary pain,Erythema,Lymphadenopathy,Pain in extremity,Tenderness,MODERNA,35.0,¥|ªÏµh
+F,N,Chest pain,Injection site pruritus,Injection site swelling,Myalgia,Neck pain,PFIZER\BIONTECH,42.0,Âß·Fµh
+F,N,Abdominal pain lower,Appendicectomy,Appendicitis,Computerised tomogram abnormal,Decreased appetite,PFIZER\BIONTECH,55.0,¥|ªÏµh
+F,N,Axillary pain,Erythema,Lymph node pain,Lymphadenopathy,Pain in extremity,MODERNA,35.0,¥|ªÏµh
+F,N,Headache,Heart rate increased,Rash,Throat irritation,Tremor,PFIZER\BIONTECH,57.0,ÀYÀVµh
+F,N,Axillary pain,Body temperature increased,Chills,Dizziness,Headache,MODERNA,43.0,¥|ªÏµh
+F,N,Axillary pain,Dyspnoea,Injection site pain,Injection site warmth,Pruritus,MODERNA,42.0,¥|ªÏµh
+F,N,Axillary pain,Chills,Erythema,Induration,Injection site pruritus,MODERNA,38.0,¥|ªÏµh
+F,N,Chest pain,Fatigue,Lymph node pain,Neck pain,Pain in extremity,PFIZER\BIONTECH,25.0,Âß·Fµh
+M,N,Abdominal pain,Chills,Headache,Influenza like illness,Lymphadenopathy,PFIZER\BIONTECH,53.0,¥|ªÏµh
+F,N,Headache,Hypersensitivity,Injection site bruising,Injection site erythema,Laryngitis,PFIZER\BIONTECH,49.0,ÀYÀVµh
+F,N,Axillary pain,Injection site erythema,Injection site swelling,Nodule,Pain,MODERNA,37.0,¥|ªÏµh
+F,N,Headache,Malaise,Nausea,Night sweats,Oropharyngeal pain,PFIZER\BIONTECH,52.0,ÀYÀVµh
+F,N,Headache,Insomnia,Nausea,Parosmia,Thinking abnormal,MODERNA,80.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia,Influenza virus test negative,Nausea,Oropharyngeal pain,MODERNA,50.0,ÀYÀVµh
+F,N,Headache,Nervousness,Oxygen saturation decreased,Pain in extremity,Palpitations,PFIZER\BIONTECH,57.0,ÀYÀVµh
+F,N,Axillary pain,Induration,Injection site erythema,Injection site induration,Injection site pain,MODERNA,46.0,¥|ªÏµh
+F,N,Headache,Injection site pain,Injection site swelling,Injection site warmth,Pain,PFIZER\BIONTECH,52.0,ÀYÀVµh
+F,N,Headache,Injection site rash,Nausea,Pain in extremity,Peripheral swelling,MODERNA,26.0,ÀYÀVµh
+M,N,Abdominal pain upper,Chills,Pain in extremity,Pyrexia,SARS-CoV-2 test,PFIZER\BIONTECH,22.0,¥|ªÏµh
+F,N,Axillary pain,Fatigue,Headache,Injection site erythema,Injection site pain,MODERNA,41.0,¥|ªÏµh
+F,N,Chest pain,Chills,Dizziness,Headache,Myalgia,PFIZER\BIONTECH,33.0,Âß·Fµh
+F,N,Headache,Hyperhidrosis,Limb discomfort,Pain in extremity,Pyrexia,MODERNA,32.0,ÀYÀVµh
+F,N,Abdominal pain,Body temperature increased,Chills,Diarrhoea,Headache,MODERNA,36.0,¥|ªÏµh
+F,N,Headache,Injection site abscess,Injection site discolouration,Injection site warmth,Malaise,MODERNA,52.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia,Injection site pain,Injection site swelling,Paraesthesia,MODERNA,27.0,ÀYÀVµh
+F,N,Back pain,Feeling cold,Gait disturbance,Injection site pain,Injection site swelling,PFIZER\BIONTECH,34.0,Âß·Fµh
+F,N,Eye pain,Fatigue,Headache,Hypoaesthesia,Injection site pain,MODERNA,40.0,ÀYÀVµh
+F,N,Eye pain,Headache,Immediate post-injection reaction,Injection site pain,SARS-CoV-2 test positive,MODERNA,46.0,ÀYÀVµh
+F,N,Headache,Immediate post-injection reaction,Lethargy,Mental impairment,SARS-CoV-2 test negative,PFIZER\BIONTECH,48.0,ÀYÀVµh
+F,N,Headache,Pain,Rash,Rash erythematous,Rash papular,MODERNA,51.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia,Injection site pain,Myalgia,Nausea,PFIZER\BIONTECH,36.0,ÀYÀVµh
+F,N,Oropharyngeal pain,Pain in extremity,Paraesthesia,Photophobia,Pyrexia,PFIZER\BIONTECH,36.0,¨ä¥Lµh
+F,N,Headache,Impaired work ability,Loss of personal independence in daily activities,Myalgia,Pyrexia,MODERNA,28.0,ÀYÀVµh
+F,N,Headache,Induration,Neck pain,Pain,Swelling,MODERNA,31.0,ÀYÀVµh
+F,N,Axillary pain,Injection site erythema,Injection site pruritus,Injection site swelling,Injection site warmth,MODERNA,46.0,¥|ªÏµh
+F,N,Headache,Lethargy,Presyncope,Tachycardia,Vision blurred,PFIZER\BIONTECH,59.0,ÀYÀVµh
+F,N,Back pain,Chills,Feeling hot,Headache,Injection site induration,MODERNA,30.0,Âß·Fµh
+F,N,Chest pain,Chills,Fatigue,Flushing,Pain,MODERNA,30.0,Âß·Fµh
+M,N,Headache,Hypoaesthesia oral,Pain,Peripheral swelling,Pharyngeal hypoaesthesia,PFIZER\BIONTECH,30.0,ÀYÀVµh
+F,N,Headache,Musculoskeletal stiffness,Myalgia,Nausea,Pyrexia,MODERNA,22.0,ÀYÀVµh
+F,N,Headache,Injection site reaction,Musculoskeletal stiffness,Pain in extremity,Pyrexia,MODERNA,22.0,ÀYÀVµh
+F,N,Abdominal pain,Cough,Diarrhoea,Fatigue,Headache,PFIZER\BIONTECH,45.0,¥|ªÏµh
+F,N,Headache,Injection site rash,Pain,Pruritus,Tenderness,MODERNA,29.0,ÀYÀVµh
+F,N,Abdominal pain upper,Arthralgia,Headache,Pain,Pyrexia,PFIZER\BIONTECH,49.0,¥|ªÏµh
+F,N,Headache,Histamine abnormal,Injection site discolouration,Injection site erythema,Injection site pruritus,MODERNA,46.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site pain,Injection site pruritus,MODERNA,31.0,ÀYÀVµh
+F,N,Headache,Hyperhidrosis,Hypoaesthesia,Pain in extremity,Paraesthesia,PFIZER\BIONTECH,57.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site nodule,Injection site reaction,Injection site swelling,MODERNA,29.0,ÀYÀVµh
+F,N,Bone pain,Dizziness,Feeling cold,Malaise,Mobility decreased,MODERNA,46.0,¨ä¥Lµh
+M,N,Abdominal pain,Body temperature increased,Chills,Diarrhoea,Fatigue,PFIZER\BIONTECH,25.0,¥|ªÏµh
+F,N,Abdominal pain upper,Fatigue,Headache,Myalgia,Nausea,MODERNA,27.0,¥|ªÏµh
+F,N,Pain in extremity,Peripheral swelling,Pruritus,Pyrexia,Skin warm,MODERNA,40.0,¨ä¥Lµh
+F,N,Headache,Injection site pain,Nausea,Pain,Pyrexia,MODERNA,23.0,ÀYÀVµh
+M,N,Back pain,Chills,Fatigue,Headache,Myalgia,PFIZER\BIONTECH,30.0,Âß·Fµh
+F,N,Chest pain,Feeling abnormal,Headache,Pain in extremity,Pruritus,MODERNA,57.0,Âß·Fµh
+F,N,Axillary pain,Back pain,Chills,Electrocardiogram normal,Headache,PFIZER\BIONTECH,37.0,¥|ªÏµh
+F,N,Back pain,Headache,Injection site pain,Nausea,Neck pain,PFIZER\BIONTECH,45.0,Âß·Fµh
+F,N,Headache,Myalgia,Nausea,Nuchal rigidity,Pain in extremity,PFIZER\BIONTECH,29.0,ÀYÀVµh
+M,N,Headache,Nausea,Neck pain,Pain,Pain in extremity,PFIZER\BIONTECH,35.0,ÀYÀVµh
+M,N,Abdominal pain upper,Asthenia,Chills,Diarrhoea,Hyperhidrosis,PFIZER\BIONTECH,38.0,¥|ªÏµh
+F,N,Abdominal pain upper,Axillary pain,Chills,Decreased appetite,Injection site pain,PFIZER\BIONTECH,43.0,¥|ªÏµh
+F,N,Back pain,Full blood count,Headache,Influenza A virus test,Influenza B virus test,MODERNA,38.0,Âß·Fµh
+F,N,Back pain,Herpes zoster,Hypoaesthesia,Rash,Urticaria,MODERNA,66.0,Âß·Fµh
+F,N,Chest pain,Dizziness,Ear pain,Headache,Pain in extremity,MODERNA,39.0,Âß·Fµh
+F,N,Ear pain,Feeling abnormal,Headache,Hypoacusis,Tinnitus,MODERNA,40.0,ÀYÀVµh
+F,N,Chest pain,Chills,Cough,Dyspnoea,Fatigue,PFIZER\BIONTECH,23.0,Âß·Fµh
+F,N,Eye pain,Fatigue,Headache,Nausea,Pain,MODERNA,26.0,ÀYÀVµh
+M,N,Headache,Hyperhidrosis,Myalgia,Night sweats,Pyrexia,PFIZER\BIONTECH,28.0,ÀYÀVµh
+F,N,Abdominal pain upper,Back pain,Chills,Decreased appetite,Depressed mood,MODERNA,47.0,¥|ªÏµh
+F,N,Headache,Hyperhidrosis,Metabolic function test,Nausea,Pain,PFIZER\BIONTECH,42.0,ÀYÀVµh
+F,N,Headache,Hyperhidrosis,Impaired work ability,Oropharyngeal pain,Pain,PFIZER\BIONTECH,40.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site pruritus,Vaccination site swelling,Vaccination site warmth,MODERNA,51.0,ÀYÀVµh
+F,N,Back pain,Headache,Hypoaesthesia,Ocular discomfort,Paraesthesia oral,PFIZER\BIONTECH,38.0,Âß·Fµh
+F,N,Abdominal pain,Asthenia,Chills,Computerised tomogram thorax,Diarrhoea,MODERNA,73.0,¥|ªÏµh
+F,N,Abdominal pain,Asthenia,Back pain,Chills,Diarrhoea,PFIZER\BIONTECH,49.0,¥|ªÏµh
+F,N,Back pain,Body temperature increased,Chills,Fatigue,Feeling hot,MODERNA,37.0,Âß·Fµh
+F,N,Headache,Hyperhidrosis,Injection site pain,Neck pain,Pain,MODERNA,44.0,ÀYÀVµh
+F,N,Headache,Heart rate increased,Injection site pruritus,Injection site warmth,Metabolic function test,MODERNA,30.0,ÀYÀVµh
+F,N,Headache,Oral pruritus,Pain in extremity,Pruritus,Throat irritation,PFIZER\BIONTECH,59.0,ÀYÀVµh
+F,N,Headache,Hot flush,Injection site erythema,Injection site pain,Injection site swelling,PFIZER\BIONTECH,53.0,ÀYÀVµh
+F,N,Abdominal pain,Arthralgia,Chest pain,Chills,Neck pain,MODERNA,63.0,¥|ªÏµh
+F,N,Ear pain,Headache,Nausea,Pain,Pain in extremity,MODERNA,27.0,ÀYÀVµh
+F,N,Abdominal pain,Body temperature increased,Dyspepsia,Fatigue,Gastric disorder,PFIZER\BIONTECH,63.0,¥|ªÏµh
+F,N,Abdominal pain,Decreased appetite,Headache,Injection site erythema,Injection site swelling,MODERNA,19.0,¥|ªÏµh
+F,N,Ear pain,Erythema,Injection site erythema,Injection site pain,Injection site pruritus,MODERNA,52.0,ÀYÀVµh
+F,N,Headache,Injection site swelling,Myalgia,Pain in extremity,Paraesthesia,PFIZER\BIONTECH,40.0,ÀYÀVµh
+F,N,Headache,Impaired work ability,Influenza like illness,Injection site erythema,Injection site pain,MODERNA,54.0,ÀYÀVµh
+F,N,Chest pain,Dyspnoea,Headache,Nausea,Oropharyngeal pain,MODERNA,22.0,Âß·Fµh
+F,N,Back pain,Cold sweat,Discomfort,Fatigue,Headache,MODERNA,48.0,Âß·Fµh
+F,N,Abdominal pain upper,Dizziness,Lymphadenopathy,Nausea,Pyrexia,PFIZER\BIONTECH,59.0,¥|ªÏµh
+F,N,Abdominal pain,Asthenia,Diarrhoea,Full blood count,Haemorrhoids,PFIZER\BIONTECH,62.0,¥|ªÏµh
+F,N,Abdominal pain,Blood alkaline phosphatase normal,Blood glucose normal,Blood lactic acid decreased,Blood sodium normal,MODERNA,32.0,¥|ªÏµh
+F,N,Pain in extremity,Paraesthesia,Scab,Skin lesion,Somnolence,PFIZER\BIONTECH,40.0,¨ä¥Lµh
+F,N,Headache,Oropharyngeal pain,Pain,Pharyngitis streptococcal,Streptococcus test positive,MODERNA,57.0,ÀYÀVµh
+F,N,Headache,Metabolic function test,Myalgia,Pulmonary embolism,Pyrexia,PFIZER\BIONTECH,23.0,ÀYÀVµh
+F,N,Axillary pain,Headache,Injection site pain,Myalgia,Nausea,MODERNA,58.0,¥|ªÏµh
+M,N,Headache,Injection site pain,Injection site swelling,Malaise,Myalgia,PFIZER\BIONTECH,73.0,ÀYÀVµh
+F,N,Abdominal pain,Blood test,Chest pain,Chills,Computerised tomogram abdomen,PFIZER\BIONTECH,46.0,¥|ªÏµh
+F,N,Bone pain,Chills,Fatigue,Injection site pain,Nausea,MODERNA,25.0,¨ä¥Lµh
+F,N,Chest pain,Electrocardiogram,Full blood count,Metabolic function test,Pain,MODERNA,21.0,Âß·Fµh
+F,N,Headache,Injection site pruritus,Injection site rash,Injection site swelling,Lymphadenopathy,MODERNA,49.0,ÀYÀVµh
+F,N,Abdominal pain upper,Diarrhoea,Fatigue,Headache,Pain in extremity,MODERNA,56.0,¥|ªÏµh
+F,N,Headache,Impaired work ability,Injection site pain,Insomnia,Mobility decreased,MODERNA,40.0,ÀYÀVµh
+F,N,Headache,Impaired work ability,Malaise,Myalgia,Nausea,MODERNA,37.0,ÀYÀVµh
+F,N,Neck pain,Neuralgia,Oropharyngeal pain,Paraesthesia,SARS-CoV-2 test,MODERNA,37.0,ÀYÀVµh
+F,N,Abdominal pain upper,Chills,Fatigue,Headache,Influenza virus test negative,MODERNA,46.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site pruritus,Injection site rash,Injection site swelling,MODERNA,36.0,ÀYÀVµh
+F,N,Abdominal pain,Arthralgia,Chills,Injection site pain,Myalgia,PFIZER\BIONTECH,41.0,¥|ªÏµh
+F,N,Back pain,Chills,Decreased appetite,Fatigue,Headache,PFIZER\BIONTECH,33.0,Âß·Fµh
+F,N,Headache,Injection site erythema,Injection site rash,Injection site warmth,Pyrexia,MODERNA,52.0,ÀYÀVµh
+F,N,Headache,Mobility decreased,Musculoskeletal stiffness,Pain,Peripheral swelling,MODERNA,54.0,ÀYÀVµh
+M,N,Axillary pain,Body temperature increased,Chills,Headache,Influenza like illness,MODERNA,54.0,¥|ªÏµh
+F,N,Headache,Immediate post-injection reaction,Pain,Pain in extremity,Paraesthesia,MODERNA,35.0,ÀYÀVµh
+F,N,Chest pain,Chills,Decreased appetite,Fatigue,Feeling abnormal,PFIZER\BIONTECH,34.0,Âß·Fµh
+F,N,Pain in extremity,Pruritus,Pyrexia,Rash,Syncope,PFIZER\BIONTECH,34.0,¨ä¥Lµh
+M,N,Headache,Injected limb mobility decreased,Injection site pain,Lymphadenopathy,Migraine,MODERNA,21.0,ÀYÀVµh
+F,N,Abdominal pain upper,Back pain,Chest pain,Dyspnoea,Headache,PFIZER\BIONTECH,20.0,¥|ªÏµh
+F,N,Bone pain,Malaise,Nausea,Pain,SARS-CoV-2 test negative,PFIZER\BIONTECH,58.0,¨ä¥Lµh
+F,N,Chest pain,Chills,Cough,Delirium,Fatigue,MODERNA,20.0,Âß·Fµh
+F,N,Headache,Injection site pain,Nausea,Oropharyngeal pain,Respiratory tract congestion,MODERNA,20.0,ÀYÀVµh
+F,N,Back pain,Chills,Nausea,Pain,Pyrexia,MODERNA,51.0,Âß·Fµh
+F,N,Headache,Muscular weakness,Myalgia,Paraesthesia oral,Pruritus,PFIZER\BIONTECH,56.0,ÀYÀVµh
+F,N,Axillary pain,Injected limb mobility decreased,Injection site erythema,Injection site induration,Injection site pain,MODERNA,26.0,¥|ªÏµh
+F,N,Chest pain,Electrocardiogram,Heart rate irregular,Pain in extremity,Palpitations,PFIZER\BIONTECH,52.0,Âß·Fµh
+M,N,Abdominal pain,Dizziness,Fatigue,Headache,Impaired work ability,PFIZER\BIONTECH,30.0,¥|ªÏµh
+F,N,Axillary pain,Hyperhidrosis,Injection site pain,Injection site pruritus,Injection site rash,MODERNA,37.0,¥|ªÏµh
+F,N,Oropharyngeal pain,Pain,Pyrexia,SARS-CoV-2 test negative,Vision blurred,MODERNA,41.0,¨ä¥Lµh
+F,N,Abdominal pain,Arthralgia,Fatigue,Headache,Myalgia,PFIZER\BIONTECH,31.0,¥|ªÏµh
+F,N,Headache,Limb discomfort,Musculoskeletal pain,Myalgia,Neuralgia,PFIZER\BIONTECH,35.0,ÀYÀVµh
+F,N,Axillary pain,Body temperature increased,Erythema,Myalgia,Pain in extremity,MODERNA,53.0,¥|ªÏµh
+F,N,Headache,Migraine,Pain in extremity,Vaccination site induration,Vaccination site pain,MODERNA,57.0,ÀYÀVµh
+F,N,Headache,Laboratory test,Lung infiltration,Nausea,Pyrexia,MODERNA,29.0,ÀYÀVµh
+F,N,Abdominal pain,Cold sweat,Diarrhoea,Flatulence,Headache,MODERNA,36.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Diarrhoea,Hyperhidrosis,Injection site pain,MODERNA,50.0,¥|ªÏµh
+F,N,Back pain,Blood glucose,Blood pressure measurement,Fatigue,Headache,PFIZER\BIONTECH,62.0,Âß·Fµh
+F,N,Abdominal pain,Back pain,Chills,Cough,Headache,PFIZER\BIONTECH,36.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Headache,Pyrexia,SARS-CoV-2 test,MODERNA,24.0,¥|ªÏµh
+F,N,Abdominal pain,Bilirubin urine present,Chills,Chromaturia,Laboratory test,PFIZER\BIONTECH,71.0,¥|ªÏµh
+F,N,Axillary pain,Injection site erythema,Injection site inflammation,Injection site pruritus,Injection site swelling,MODERNA,36.0,¥|ªÏµh
+F,N,Headache,Immediate post-injection reaction,Injection site erythema,Injection site swelling,Nausea,PFIZER\BIONTECH,38.0,ÀYÀVµh
+F,N,Chest pain,Chills,Diarrhoea,Ear infection,Ear pain,PFIZER\BIONTECH,44.0,Âß·Fµh
+F,N,Headache,Influenza virus test negative,Nausea,Pyrexia,SARS-CoV-2 test negative,PFIZER\BIONTECH,44.0,ÀYÀVµh
+F,N,Headache,Injection site reaction,Muscle spasms,Nausea,Pain,MODERNA,25.0,ÀYÀVµh
+F,N,Abdominal pain lower,Computerised tomogram abdomen abnormal,Culture urine,Flank pain,Haematuria,MODERNA,38.0,¥|ªÏµh
+F,N,Axillary pain,Chills,Hyperhidrosis,Injection site pain,Neck pain,MODERNA,43.0,¥|ªÏµh
+F,N,Axillary pain,Chills,Headache,Hyperhidrosis,Injection site pain,MODERNA,47.0,¥|ªÏµh
+F,N,Headache,Hyperhidrosis,Nausea,Pain in extremity,Pyrexia,PFIZER\BIONTECH,49.0,ÀYÀVµh
+F,N,Back pain,Dyspnoea,Headache,Pyrexia,Respiratory tract congestion,MODERNA,56.0,Âß·Fµh
+F,N,Ear pain,Fatigue,Headache,Neck pain,Oropharyngeal pain,PFIZER\BIONTECH,34.0,ÀYÀVµh
+F,N,Abdominal pain,Arthralgia,Body temperature increased,Headache,Heart rate increased,PFIZER\BIONTECH,48.0,¥|ªÏµh
+M,N,Back pain,Blood test,Computerised tomogram abdomen,Computerised tomogram pelvis,Urine analysis,PFIZER\BIONTECH,57.0,Âß·Fµh
+F,N,Chest pain,Condition aggravated,Fatigue,Headache,Pain,PFIZER\BIONTECH,40.0,Âß·Fµh
+F,N,Axillary pain,Chills,Dizziness,Erythema,Headache,MODERNA,26.0,¥|ªÏµh
+F,N,Neck pain,Pain,Pain in extremity,Peripheral swelling,Pyrexia,MODERNA,26.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site pain,Injection site swelling,MODERNA,34.0,ÀYÀVµh
+M,N,Back pain,Chills,Fatigue,Headache,Pain,PFIZER\BIONTECH,43.0,Âß·Fµh
+F,N,Abdominal pain upper,Alanine aminotransferase increased,Aspartate aminotransferase increased,Blood alkaline phosphatase increased,Blood bilirubin increased,MODERNA,69.0,¥|ªÏµh
+F,N,Neck pain,Pain,Pain of skin,Peripheral swelling,Pyrexia,MODERNA,35.0,ÀYÀVµh
+F,N,Headache,Immediate post-injection reaction,Musculoskeletal stiffness,Nausea,Neurological symptom,MODERNA,25.0,ÀYÀVµh
+F,N,Axillary pain,Chills,Injection site erythema,Injection site induration,Injection site swelling,MODERNA,59.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Decreased appetite,Diarrhoea,Dizziness,PFIZER\BIONTECH,40.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Headache,Nausea,Pain,MODERNA,24.0,¥|ªÏµh
+F,N,Headache,Motor dysfunction,Pain,Pain in extremity,Peripheral swelling,MODERNA,50.0,ÀYÀVµh
+F,N,Headache,Pain in extremity,Pharyngeal swelling,Rash,Swelling face,PFIZER\BIONTECH,49.0,ÀYÀVµh
+F,N,Axillary pain,Chills,Headache,Injection site pain,Lymphadenopathy,PFIZER\BIONTECH,51.0,¥|ªÏµh
+F,N,Abdominal pain upper,Body temperature increased,Cellulitis,Diarrhoea,Fatigue,MODERNA,36.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Dyspnoea,Pain,Pain in extremity,MODERNA,59.0,¥|ªÏµh
+M,N,Chest pain,Diarrhoea,Pain,Pneumonia,Pyrexia,MODERNA,42.0,Âß·Fµh
+F,N,Axillary pain,Diarrhoea,Erythema,Injection site swelling,Lymphadenopathy,MODERNA,32.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site pruritus,Injection site swelling,Injection site warmth,MODERNA,55.0,ÀYÀVµh
+F,N,Headache,Hyperhidrosis,Malaise,Nausea,Pain,PFIZER\BIONTECH,30.0,ÀYÀVµh
+F,N,Abdominal pain,Adnexa uteri mass,Diarrhoea,Dizziness,Headache,MODERNA,37.0,¥|ªÏµh
+F,N,Back pain,Chills,Fatigue,Headache,Malaise,PFIZER\BIONTECH,31.0,Âß·Fµh
+F,N,Abdominal pain,Chills,Dyspnoea,Headache,Nausea,MODERNA,56.0,¥|ªÏµh
+F,N,Bone pain,Chills,Fatigue,Lymphadenopathy,Myalgia,PFIZER\BIONTECH,55.0,¨ä¥Lµh
+F,N,Chest pain,Injection site induration,Injection site swelling,Lip blister,Oral herpes,MODERNA,47.0,Âß·Fµh
+M,N,Back pain,Body temperature increased,Chills,Lethargy,Malaise,PFIZER\BIONTECH,50.0,Âß·Fµh
+F,N,Axillary pain,Back pain,Chills,Decreased appetite,Headache,PFIZER\BIONTECH,44.0,¥|ªÏµh
+F,N,Chest pain,Erythema,Headache,Lymphadenopathy,Myalgia,PFIZER\BIONTECH,56.0,Âß·Fµh
+F,N,Pain in extremity,Pruritus,Pyrexia,SARS-CoV-2 test,Skin reaction,PFIZER\BIONTECH,55.0,¨ä¥Lµh
+F,N,Back pain,Chills,Fatigue,Headache,Pain,PFIZER\BIONTECH,20.0,Âß·Fµh
+F,N,Abdominal pain,Chills,Gastrooesophageal reflux disease,Headache,Injection site reaction,MODERNA,49.0,¥|ªÏµh
+F,N,Abdominal pain upper,Cough,Dizziness,Ear pain,Headache,PFIZER\BIONTECH,61.0,¥|ªÏµh
+F,N,Lymph node pain,Lymphadenopathy,Musculoskeletal stiffness,Myalgia,Peripheral swelling,PFIZER\BIONTECH,53.0,¥|ªÏµh
+F,N,Headache,Injection site pain,Injection site swelling,Lymphadenopathy,Myalgia,PFIZER\BIONTECH,42.0,ÀYÀVµh
+F,N,Back pain,Body temperature increased,Diarrhoea,Headache,Nausea,MODERNA,71.0,Âß·Fµh
+F,N,Axillary pain,Erythema,Headache,Pain,Pruritus,MODERNA,44.0,¥|ªÏµh
+F,N,Breast pain,Injection site erythema,Injection site pain,Injection site pruritus,Injection site rash,MODERNA,41.0,Âß·Fµh
+F,N,Pain in extremity,Pruritus,Sinus congestion,Tenderness,Urticaria,MODERNA,50.0,¨ä¥Lµh
+F,N,Headache,Malaise,Myalgia,Nausea,Pyrexia,PFIZER\BIONTECH,26.0,ÀYÀVµh
+F,N,Abdominal pain upper,Chest discomfort,Dizziness,Feeling abnormal,Headache,MODERNA,59.0,¥|ªÏµh
+F,N,Abdominal pain,Diarrhoea,Fatigue,Gastrointestinal haemorrhage,Headache,MODERNA,40.0,¥|ªÏµh
+F,N,Abdominal pain upper,Condition aggravated,Dizziness,Headache,Influenza virus test negative,MODERNA,24.0,¥|ªÏµh
+F,N,Ear pain,Eyelid disorder,Lip disorder,Pruritus,Sensory disturbance,PFIZER\BIONTECH,40.0,ÀYÀVµh
+F,N,Abdominal pain upper,Arthralgia,Dizziness,Fatigue,Migraine,MODERNA,53.0,¥|ªÏµh
+M,N,Abdominal pain,Asthenia,Gastrointestinal sounds abnormal,Hyperhidrosis,Myalgia,MODERNA,59.0,¥|ªÏµh
+F,N,Back pain,Chills,Fatigue,Headache,Pyrexia,MODERNA,59.0,Âß·Fµh
+F,N,Back pain,Chest pain,Dizziness,Pain in extremity,Tenderness,PFIZER\BIONTECH,29.0,Âß·Fµh
+F,N,Headache,Nausea,Pain,Pain in extremity,Pyrexia,MODERNA,61.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site pruritus,Injection site swelling,MODERNA,50.0,ÀYÀVµh
+F,N,Abdominal pain upper,Asthenia,Chest pain,Diarrhoea,Dyspnoea,MODERNA,70.0,¥|ªÏµh
+F,N,Abdominal pain,Arthralgia,Chills,Crying,Dehydration,MODERNA,26.0,¥|ªÏµh
+F,N,Abdominal pain,Chills,Fatigue,Feeding disorder,Headache,PFIZER\BIONTECH,61.0,¥|ªÏµh
+F,N,Headache,Impaired work ability,Injection site pain,Injection site swelling,Pain,MODERNA,61.0,ÀYÀVµh
+F,N,Ear pain,Injection site inflammation,Injection site pain,Lymphadenopathy,Mobility decreased,PFIZER\BIONTECH,49.0,ÀYÀVµh
+F,N,Headache,Induration,Pain in extremity,Peripheral swelling,Rash,MODERNA,50.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site induration,Joint stiffness,Pyrexia,MODERNA,57.0,ÀYÀVµh
+F,N,Abdominal pain,Arthralgia,Chills,Dizziness,Fatigue,PFIZER\BIONTECH,45.0,¥|ªÏµh
+F,N,Headache,Myalgia,Nausea,Pyrexia,Restlessness,PFIZER\BIONTECH,45.0,ÀYÀVµh
+M,N,Eye pain,Impaired work ability,Injection site pain,Migraine,Mobility decreased,PFIZER\BIONTECH,53.0,ÀYÀVµh
+F,N,Headache,Myalgia,Nausea,Swelling face,Vomiting,PFIZER\BIONTECH,39.0,ÀYÀVµh
+F,N,Axillary pain,Breast pain,Injection site pain,Lymphadenopathy,Monoplegia,PFIZER\BIONTECH,29.0,¥|ªÏµh
+F,N,Pain in extremity,Pain in jaw,Painful respiration,Respiratory tract congestion,SARS-CoV-2 test negative,MODERNA,37.0,¨ä¥Lµh
+M,N,Abdominal pain,Asthenia,Back pain,Computerised tomogram spine,Muscular weakness,MODERNA,44.0,¥|ªÏµh
+F,N,Axillary pain,Erythema,Induration,Pain,Swelling,MODERNA,45.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site warmth,Myalgia,MODERNA,42.0,ÀYÀVµh
+M,N,Headache,Hyperhidrosis,Muscle fatigue,Nausea,SARS-CoV-2 test negative,PFIZER\BIONTECH,23.0,ÀYÀVµh
+F,N,Axillary pain,Fatigue,Myalgia,Pain,Pyrexia,MODERNA,62.0,¥|ªÏµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site pain,Injection site pruritus,MODERNA,52.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site pain,Injection site pruritus,MODERNA,59.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site pruritus,Injection site swelling,MODERNA,41.0,ÀYÀVµh
+M,N,Headache,Impaired work ability,Influenza like illness,Nausea,Pyrexia,MODERNA,52.0,ÀYÀVµh
+F,N,Chest pain,Fatigue,Pain,Pain in extremity,Pyrexia,MODERNA,70.0,Âß·Fµh
+F,N,Headache,Metabolic function test,Myalgia,Pain,Palpitations,PFIZER\BIONTECH,51.0,ÀYÀVµh
+M,N,Headache,Injection site reaction,Myalgia,Pyrexia,Sleep disorder,MODERNA,21.0,ÀYÀVµh
+M,N,Chest pain,Chills,Dehydration,Electrocardiogram,Electrocardiogram ambulatory,PFIZER\BIONTECH,42.0,Âß·Fµh
+M,N,Headache,Hypoaesthesia,Jaw disorder,Lymph node palpable,Lymphadenopathy,MODERNA,38.0,ÀYÀVµh
+F,N,Ear pain,Eye pruritus,Fatigue,Hypersensitivity,Injection site erythema,MODERNA,56.0,ÀYÀVµh
+F,N,Back pain,Dyspnoea exertional,Fatigue,Feeling hot,Headache,PFIZER\BIONTECH,62.0,Âß·Fµh
+F,N,Headache,Injection site mass,Injection site pain,Injection site pruritus,Injection site swelling,MODERNA,31.0,ÀYÀVµh
+F,N,Back pain,Fatigue,Injection site pain,Pain,Tinnitus,PFIZER\BIONTECH,51.0,Âß·Fµh
+M,N,Back pain,Chest pain,Condition aggravated,Erythema,Injection site swelling,MODERNA,66.0,Âß·Fµh
+F,N,Headache,Hypoaesthesia,Nausea,Pain,Raynaud's phenomenon,MODERNA,36.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia,Lip swelling,Malaise,Nausea,PFIZER\BIONTECH,62.0,ÀYÀVµh
+F,N,Chest pain,Cold sweat,Diarrhoea,Electrocardiogram normal,Flushing,PFIZER\BIONTECH,45.0,Âß·Fµh
+F,N,Abdominal pain upper,Asthenia,Body temperature increased,Dizziness postural,Fatigue,MODERNA,27.0,¥|ªÏµh
+F,N,Abdominal pain,Exposure during pregnancy,Premature baby,Premature delivery,Vaginal haemorrhage,PFIZER\BIONTECH,32.0,¥|ªÏµh
+F,N,Headache,Nausea,Neck pain,Night sweats,Presyncope,PFIZER\BIONTECH,45.0,ÀYÀVµh
+F,N,Axillary pain,Injected limb mobility decreased,Limb discomfort,Pain in extremity,Tenderness,MODERNA,37.0,¥|ªÏµh
+F,N,Abdominal pain,Discomfort,Fatigue,Headache,Nightmare,PFIZER\BIONTECH,59.0,¥|ªÏµh
+F,N,Breast pain,Chest pain,Fatigue,Headache,Hot flush,PFIZER\BIONTECH,47.0,Âß·Fµh
+F,N,Headache,Injection site hypersensitivity,Injection site pain,Lethargy,Pain,MODERNA,44.0,ÀYÀVµh
+F,N,Headache,Myalgia,Nausea,Neck pain,Pain,PFIZER\BIONTECH,36.0,ÀYÀVµh
+F,N,Ear pain,Fatigue,Headache,Neck pain,Nodule,PFIZER\BIONTECH,39.0,ÀYÀVµh
+F,N,Flank pain,Headache,Injection site pain,Musculoskeletal stiffness,Neck pain,MODERNA,44.0,Âß·Fµh
+M,N,Back pain,Chest pain,Injection site pain,Laboratory test normal,Painful respiration,PFIZER\BIONTECH,50.0,Âß·Fµh
+F,N,Oropharyngeal pain,Presyncope,Pruritus,Rash,Tachycardia,PFIZER\BIONTECH,39.0,¨ä¥Lµh
+F,N,Headache,Heart rate increased,Hyperhidrosis,Influenza virus test negative,Injected limb mobility decreased,MODERNA,41.0,ÀYÀVµh
+F,N,Headache,Hyporeflexia,Lumbar puncture normal,Metabolic function test normal,Muscular weakness,PFIZER\BIONTECH,39.0,ÀYÀVµh
+F,N,Chest pain,Dizziness,Fatigue,Headache,Hypoaesthesia,PFIZER\BIONTECH,32.0,Âß·Fµh
+F,N,Axillary pain,Breast pain,Injection site erythema,Injection site pain,Injection site swelling,MODERNA,58.0,¥|ªÏµh
+M,N,Headache,Nausea,Pain,Pyrexia,Vomiting,MODERNA,23.0,ÀYÀVµh
+F,N,Abdominal pain,Arthralgia,Chills,Computerised tomogram abdomen,Laboratory test,PFIZER\BIONTECH,30.0,¥|ªÏµh
+F,N,Chest pain,Dizziness,Full blood count normal,Headache,Injection site pain,PFIZER\BIONTECH,26.0,Âß·Fµh
+M,N,Eye pain,Headache,Myalgia,Ocular discomfort,Sleep disorder,PFIZER\BIONTECH,29.0,ÀYÀVµh
+F,N,Abdominal pain upper,Asthenia,Cardiac stress test,Cardiovascular evaluation,Chest X-ray,MODERNA,62.0,¥|ªÏµh
+F,N,Abdominal pain,Anxiety,Arthralgia,Chills,Dizziness,PFIZER\BIONTECH,36.0,¥|ªÏµh
+F,N,Headache,Hypoaesthesia,Insomnia,Myalgia,Pain,PFIZER\BIONTECH,36.0,ÀYÀVµh
+F,N,Pain in extremity,Palpitations,Paraesthesia,Paraesthesia oral,Presyncope,PFIZER\BIONTECH,36.0,¨ä¥Lµh
+F,N,Chest pain,Contusion,Dizziness,Hypoaesthesia,Immediate post-injection reaction,MODERNA,36.0,Âß·Fµh
+M,N,Headache,Nausea,Neck pain,Pain,Pain in extremity,PFIZER\BIONTECH,41.0,ÀYÀVµh
+F,N,Headache,Hyperhidrosis,Nausea,Pain,Pyrexia,MODERNA,51.0,ÀYÀVµh
+F,N,Chest pain,Dizziness,Feeling hot,Immediate post-injection reaction,Retching,PFIZER\BIONTECH,52.0,Âß·Fµh
+F,N,Abdominal pain,Appendicectomy,Computerised tomogram,Full blood count,Metabolic function test,PFIZER\BIONTECH,49.0,¥|ªÏµh
+F,N,Back pain,Chest X-ray normal,Chest pain,Dyspepsia,Electrocardiogram normal,PFIZER\BIONTECH,39.0,Âß·Fµh
+M,N,Headache,Nausea,Night sweats,Pain,Tinnitus,MODERNA,55.0,ÀYÀVµh
+F,N,Axillary pain,Chills,Headache,Pain,Pyrexia,PFIZER\BIONTECH,59.0,¥|ªÏµh
+F,N,Axillary pain,Chills,Fatigue,Headache,Injection site induration,MODERNA,27.0,¥|ªÏµh
+F,N,Pain in extremity,Pyrexia,Rash erythematous,Rash papular,Rash pruritic,MODERNA,36.0,¨ä¥Lµh
+F,N,Chest pain,Chills,Fatigue,Headache,Myalgia,PFIZER\BIONTECH,41.0,Âß·Fµh
+F,N,Back pain,Chills,Dizziness,Fatigue,Headache,PFIZER\BIONTECH,46.0,Âß·Fµh
+F,N,Headache,Hyperhidrosis,Influenza like illness,Pain in extremity,Tachycardia,MODERNA,34.0,ÀYÀVµh
+M,N,Pain in extremity,Pyrexia,Rash,Rash erythematous,Rash papular,MODERNA,38.0,¨ä¥Lµh
+F,N,Chest pain,Dizziness,Hypoaesthesia,Malaise,Muscular weakness,PFIZER\BIONTECH,56.0,Âß·Fµh
+F,N,Axillary pain,Injection site erythema,Injection site pruritus,Rash,Urticaria,MODERNA,41.0,¥|ªÏµh
+F,N,Axillary pain,Chills,Fatigue,Lymphadenopathy,Malaise,MODERNA,23.0,¥|ªÏµh
+F,N,Chest pain,Injection site pain,Muscle spasms,Pain,Sleep disorder,MODERNA,34.0,Âß·Fµh
+F,N,Abdominal pain,Fatigue,Headache,Pain,Pain in extremity,MODERNA,29.0,¥|ªÏµh
+M,N,Abdominal pain upper,Arthralgia,Body temperature increased,Chills,Fatigue,PFIZER\BIONTECH,39.0,¥|ªÏµh
+F,N,Back pain,Chills,Hyperhidrosis,Pain,Pyrexia,PFIZER\BIONTECH,27.0,Âß·Fµh
+F,N,Abdominal pain,Dizziness,Injection site pain,Nausea,Peripheral swelling,PFIZER\BIONTECH,24.0,¥|ªÏµh
+F,N,Axillary pain,Injection site pain,Injection site swelling,Insomnia,Lymphadenopathy,PFIZER\BIONTECH,53.0,¥|ªÏµh
+F,N,Abdominal pain,Arthralgia,Headache,Myalgia,Nausea,PFIZER\BIONTECH,40.0,¥|ªÏµh
+F,N,Headache,Pain,Pyrexia,SARS-CoV-2 test,Vomiting,PFIZER\BIONTECH,54.0,ÀYÀVµh
+M,N,Back pain,Chills,Fatigue,Malaise,Pain,PFIZER\BIONTECH,38.0,Âß·Fµh
+F,N,Axillary pain,Chills,Fatigue,Lymphadenopathy,Nasal congestion,PFIZER\BIONTECH,32.0,¥|ªÏµh
+F,N,Headache,Injection site pain,Myalgia,Pyrexia,SARS-CoV-2 test negative,MODERNA,70.0,ÀYÀVµh
+M,N,Headache,Limb discomfort,Myalgia,Nerve compression,Pain in extremity,PFIZER\BIONTECH,32.0,ÀYÀVµh
+M,N,Headache,Influenza like illness,Injection site pain,Joint stiffness,Nausea,PFIZER\BIONTECH,60.0,ÀYÀVµh
+F,N,Abdominal pain,Chills,Headache,Hypotension,Immediate post-injection reaction,PFIZER\BIONTECH,39.0,¥|ªÏµh
+F,N,Bone pain,Headache,Injection site pain,Migraine,Nausea,MODERNA,25.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Fatigue,Feeding disorder,Nausea,Pain,MODERNA,67.0,¥|ªÏµh
+F,N,Bone pain,Headache,Injection site erythema,Injection site swelling,Injection site warmth,PFIZER\BIONTECH,29.0,¨ä¥Lµh
+F,N,Abdominal pain,Chills,Diarrhoea,Dizziness,Fatigue,PFIZER\BIONTECH,68.0,¥|ªÏµh
+F,N,Oropharyngeal pain,Pain,Pain in extremity,Rash,Rhinorrhoea,MODERNA,38.0,¨ä¥Lµh
+F,N,Abdominal pain,Chills,Fatigue,Headache,Myalgia,PFIZER\BIONTECH,64.0,¥|ªÏµh
+F,N,Axillary pain,Injection site erythema,Injection site pain,Injection site swelling,Lymphadenopathy,PFIZER\BIONTECH,42.0,¥|ªÏµh
+F,N,Back pain,Chills,Feeling hot,Neck pain,Pain in extremity,MODERNA,24.0,Âß·Fµh
+F,N,Back pain,Chest discomfort,Cough,Dizziness,Dyspnoea,PFIZER\BIONTECH,23.0,Âß·Fµh
+M,N,Headache,Injection site erythema,Injection site pruritus,Injection site swelling,Photophobia,MODERNA,61.0,ÀYÀVµh
+F,N,Back pain,Blood count normal,Chest X-ray normal,Chills,Facial bones fracture,PFIZER\BIONTECH,50.0,Âß·Fµh
+M,N,Eye pain,Headache,Nasal congestion,Rhinorrhoea,Vision blurred,PFIZER\BIONTECH,33.0,ÀYÀVµh
+F,N,Abdominal pain upper,Diarrhoea,Dizziness,Dyspnoea,Periorbital swelling,PFIZER\BIONTECH,37.0,¥|ªÏµh
+F,N,Headache,Myalgia,Pallor,Paraesthesia,Peripheral coldness,MODERNA,53.0,ÀYÀVµh
+F,N,Abdominal pain,Appendicectomy,Appendicitis,Computerised tomogram abnormal,White blood cell count increased,MODERNA,35.0,¥|ªÏµh
+M,N,Back pain,Chills,Dysuria,Fatigue,Haematuria,MODERNA,48.0,Âß·Fµh
+F,N,Headache,Malaise,Nausea,Pain,Sleep disorder,PFIZER\BIONTECH,51.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia,Injected limb mobility decreased,Joint range of motion decreased,Loss of personal independence in daily activities,MODERNA,53.0,ÀYÀVµh
+M,N,Abdominal pain,Asthma,Back pain,Chills,Condition aggravated,PFIZER\BIONTECH,30.0,¥|ªÏµh
+F,N,Headache,Hyperhidrosis,Injection site pain,Mobility decreased,Nausea,MODERNA,50.0,ÀYÀVµh
+F,N,Back pain,Chills,Headache,Hyperhidrosis,Insomnia,PFIZER\BIONTECH,49.0,Âß·Fµh
+F,N,Abdominal pain,Arthralgia,Chills,Headache,Pain,MODERNA,68.0,¥|ªÏµh
+F,N,Abdominal pain upper,Diarrhoea,Dyskinesia,Injection site discomfort,Muscle spasms,MODERNA,42.0,¥|ªÏµh
+F,N,Headache,Hyperhidrosis,Injection site pain,Nausea,Pyrexia,MODERNA,51.0,ÀYÀVµh
+F,N,Axillary pain,Fatigue,Headache,Monoplegia,Pain,PFIZER\BIONTECH,28.0,¥|ªÏµh
+F,N,Abdominal pain,Arthralgia,Chills,Nausea,Pain,PFIZER\BIONTECH,35.0,¥|ªÏµh
+F,N,Headache,Influenza like illness,Nausea,Pyrexia,SARS-CoV-2 test negative,MODERNA,59.0,ÀYÀVµh
+F,N,Back pain,Chills,Injection site rash,Neck pain,Pruritus,MODERNA,36.0,Âß·Fµh
+F,N,Lymph node pain,Oropharyngeal pain,Pruritus,Rash erythematous,Sinus operation,MODERNA,47.0,¥|ªÏµh
+F,N,Headache,Oropharyngeal pain,Pain in extremity,Paraesthesia,Swelling,PFIZER\BIONTECH,59.0,ÀYÀVµh
+F,N,Pain in extremity,Paraesthesia oral,Pruritus,Swollen tongue,Trismus,PFIZER\BIONTECH,56.0,¨ä¥Lµh
+F,N,Abdominal pain,Chills,Dizziness,Fatigue,Headache,PFIZER\BIONTECH,41.0,¥|ªÏµh
+M,N,Abdominal pain,Chills,Dizziness,Dizziness postural,Fatigue,PFIZER\BIONTECH,34.0,¥|ªÏµh
+F,N,Back pain,Chills,Decreased appetite,Dyspepsia,Fatigue,PFIZER\BIONTECH,28.0,Âß·Fµh
+F,N,Abdominal pain upper,Back pain,Chest discomfort,Fatigue,Injection site erythema,MODERNA,31.0,¥|ªÏµh
+M,N,Axillary pain,Chills,Dizziness,Dizziness exertional,Fatigue,PFIZER\BIONTECH,36.0,¥|ªÏµh
+F,N,Abdominal pain,Diarrhoea,Fatigue,Injection site erythema,Injection site pain,MODERNA,36.0,¥|ªÏµh
+F,N,Abdominal pain,Fatigue,Headache,Nausea,Vomiting,MODERNA,62.0,¥|ªÏµh
+M,N,Chest pain,Cough,Fatigue,Increased upper airway secretion,Pain,MODERNA,43.0,Âß·Fµh
+F,N,Headache,Lymphadenopathy,Oropharyngeal pain,Pain,Productive cough,PFIZER\BIONTECH,57.0,ÀYÀVµh
+F,N,Back pain,Fatigue,Headache,Injection site pain,Lymphadenopathy,PFIZER\BIONTECH,29.0,Âß·Fµh
+F,N,Headache,Myalgia,Nausea,Pyrexia,SARS-CoV-2 test negative,PFIZER\BIONTECH,48.0,ÀYÀVµh
+F,N,Headache,Malaise,Myalgia,Nasopharyngitis,Pain in extremity,PFIZER\BIONTECH,41.0,ÀYÀVµh
+F,N,Abdominal pain lower,Chills,Headache,Pain,Pyrexia,PFIZER\BIONTECH,49.0,¥|ªÏµh
+F,N,Back pain,Computerised tomogram,Flank pain,Full blood count,Herpes zoster,MODERNA,57.0,Âß·Fµh
+F,N,Headache,Nausea,Pain,Pain in extremity,Pyrexia,MODERNA,57.0,ÀYÀVµh
+F,N,Chest pain,Dizziness,Dyspnoea,Fatigue,Headache,PFIZER\BIONTECH,54.0,Âß·Fµh
+F,N,Headache,Neuromuscular pain,Pain in extremity,Pruritus,Skin burning sensation,PFIZER\BIONTECH,33.0,ÀYÀVµh
+F,N,Axillary pain,Chills,Fatigue,Hypersomnia,Injection site pain,PFIZER\BIONTECH,26.0,¥|ªÏµh
+F,N,Headache,Injection site bruising,Injection site pain,Injection site swelling,Pain,PFIZER\BIONTECH,27.0,ÀYÀVµh
+F,Y,Back pain,Cardiac disorder,Death,Dizziness,Pain in extremity,MODERNA,91.0,Âß·Fµh
+F,N,Abdominal pain upper,Chills,Cough,Dizziness,Eye pain,PFIZER\BIONTECH,39.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Cough,Dizziness,Eye pain,PFIZER\BIONTECH,39.0,¥|ªÏµh
+M,N,Axillary pain,Chills,Headache,Injection site pain,Lymph node pain,PFIZER\BIONTECH,49.0,¥|ªÏµh
+M,N,Abdominal pain upper,Cold sweat,Diarrhoea,Flatulence,Malaise,PFIZER\BIONTECH,46.0,¥|ªÏµh
+F,N,Axillary pain,Chills,Injection site pain,Lymphadenopathy,Pyrexia,PFIZER\BIONTECH,44.0,¥|ªÏµh
+F,N,Back pain,Chills,Fatigue,Headache,Injection site pain,MODERNA,32.0,Âß·Fµh
+F,N,Headache,Metabolic function test normal,Myalgia,Neck pain,Pyrexia,PFIZER\BIONTECH,36.0,ÀYÀVµh
+M,N,Back pain,Chills,Confusional state,Headache,Injection site pain,PFIZER\BIONTECH,51.0,Âß·Fµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site swelling,Migraine,MODERNA,43.0,ÀYÀVµh
+F,N,Back pain,Fatigue,Injection site rash,Musculoskeletal stiffness,Neck pain,MODERNA,32.0,Âß·Fµh
+F,N,Abdominal pain,Back pain,Chest X-ray,Chest pain,Chills,MODERNA,25.0,¥|ªÏµh
+F,N,Abdominal pain,Chills,Nausea,Pyrexia,Vomiting,PFIZER\BIONTECH,24.0,¥|ªÏµh
+F,N,Back pain,Chest discomfort,Fatigue,Feeling abnormal,Heart rate increased,MODERNA,36.0,Âß·Fµh
+F,N,Headache,Neck mass,Neck pain,Pyrexia,Swelling,MODERNA,41.0,ÀYÀVµh
+F,N,Back pain,Fatigue,Hyperhidrosis,Night sweats,Pain,PFIZER\BIONTECH,42.0,Âß·Fµh
+F,N,Headache,Injected limb mobility decreased,Musculoskeletal stiffness,Pain,Pain in extremity,MODERNA,37.0,ÀYÀVµh
+F,N,Abdominal pain,Chills,Fatigue,Headache,Impaired work ability,PFIZER\BIONTECH,58.0,¥|ªÏµh
+F,N,Headache,Heart rate abnormal,Lymphadenopathy,Metabolic function test,Pain,MODERNA,62.0,ÀYÀVµh
+F,N,Headache,Injection site bruising,Injection site rash,Rash,Tenderness,MODERNA,38.0,ÀYÀVµh
+F,N,Back pain,Body temperature increased,Fatigue,Headache,Pain in extremity,MODERNA,60.0,Âß·Fµh
+F,N,Abdominal pain upper,Abdominal tenderness,Foetal monitoring normal,Full blood count normal,Metabolic function test,PFIZER\BIONTECH,32.0,¥|ªÏµh
+F,N,Abdominal pain,Back pain,Condition aggravated,Diarrhoea,Nausea,PFIZER\BIONTECH,35.0,¥|ªÏµh
+F,N,Pain in extremity,Peripheral swelling,Respiratory tract congestion,SARS-CoV-2 test negative,Sleep disorder,PFIZER\BIONTECH,38.0,¨ä¥Lµh
+F,N,Chest pain,Diarrhoea,Echocardiogram normal,Electrocardiogram T wave abnormal,Myocarditis,PFIZER\BIONTECH,44.0,Âß·Fµh
+F,N,Abdominal pain upper,Blood test,Chest X-ray,Computerised tomogram,Contusion,MODERNA,61.0,¥|ªÏµh
+F,N,Headache,Loss of consciousness,Malaise,Memory impairment,Poor quality sleep,MODERNA,61.0,ÀYÀVµh
+F,N,Abdominal pain upper,Arthralgia,Body temperature,Chills,Diarrhoea,PFIZER\BIONTECH,38.0,¥|ªÏµh
+F,N,Headache,Heart rate,Heart rate increased,Nausea,Neck pain,PFIZER\BIONTECH,38.0,ÀYÀVµh
+F,N,Headache,Injection site pain,Pain,Pyrexia,Sleep disorder,PFIZER\BIONTECH,36.0,ÀYÀVµh
+M,N,Bone pain,Chills,Headache,Oropharyngeal pain,Pain in extremity,PFIZER\BIONTECH,60.0,¨ä¥Lµh
+F,N,Abdominal pain,Dizziness,Endoscopic retrograde cholangiopancreatography,Headache,Hepatic enzyme increased,MODERNA,37.0,¥|ªÏµh
+F,N,Headache,Metabolic function test normal,Muscular weakness,Neck pain,Paraesthesia,MODERNA,85.0,ÀYÀVµh
+M,N,Abdominal pain,Acute respiratory distress syndrome,Arteriosclerosis coronary artery,Ascites,Atrial fibrillation,MODERNA,64.0,¥|ªÏµh
+F,N,Oropharyngeal pain,Oxygen saturation decreased,Pain in jaw,Presyncope,Pruritus,PFIZER\BIONTECH,38.0,¨ä¥Lµh
+M,N,Back pain,Dizziness,Fatigue,Hyperhidrosis,Pain,MODERNA,45.0,Âß·Fµh
+F,N,Back pain,Blood test,Computerised tomogram,Deep vein thrombosis,Magnetic resonance imaging,PFIZER\BIONTECH,22.0,Âß·Fµh
+F,N,Back pain,Blood test,Computerised tomogram,Deep vein thrombosis,Magnetic resonance imaging,PFIZER\BIONTECH,22.0,Âß·Fµh
+F,N,Abdominal pain upper,Computerised tomogram abdomen abnormal,Computerised tomogram pelvis abnormal,Lipase increased,Magnetic resonance cholangiopancreatography,MODERNA,29.0,¥|ªÏµh
+F,N,Back pain,Headache,Hypoaesthesia,Injection site swelling,Pain,MODERNA,51.0,Âß·Fµh
+F,N,Headache,Hypoaesthesia oral,Injection site erythema,Injection site pain,Injection site swelling,PFIZER\BIONTECH,51.0,ÀYÀVµh
+M,N,Abdominal pain upper,Antiphospholipid antibodies negative,Antithrombin III,Arteriosclerosis,Beta-2 glycoprotein antibody negative,MODERNA,66.0,¥|ªÏµh
+F,N,Headache,Influenza virus test negative,Oxygen saturation decreased,Pneumonia,Pyrexia,MODERNA,66.0,ÀYÀVµh
+F,N,Axillary pain,Breast pain,Fatigue,Injected limb mobility decreased,Injection site pain,MODERNA,51.0,¥|ªÏµh
+F,N,Pain in extremity,Rash,SARS-CoV-2 test,Swelling,Swelling face,MODERNA,25.0,¨ä¥Lµh
+F,N,Axillary pain,Breast pain,Chills,Diarrhoea,Fatigue,PFIZER\BIONTECH,53.0,¥|ªÏµh
+F,N,Headache,Inflammation,Injection site pain,Injection site swelling,Myalgia,PFIZER\BIONTECH,44.0,ÀYÀVµh
+F,N,Axillary pain,Back pain,Chills,Headache,Hypoaesthesia,PFIZER\BIONTECH,49.0,¥|ªÏµh
+F,N,Back pain,Chest pain,Electrocardiogram,Fatigue,Feeling abnormal,PFIZER\BIONTECH,54.0,Âß·Fµh
+M,N,Abdominal pain,Computerised tomogram abdomen,Endoscopic ultrasound,Full blood count,Lipase,PFIZER\BIONTECH,36.0,¥|ªÏµh
+F,N,Axillary pain,Breast pain,Breast swelling,Lymph node pain,Lymphadenopathy,PFIZER\BIONTECH,61.0,¥|ªÏµh
+F,N,Axillary pain,Breast pain,Breast swelling,Lymph node pain,Lymphadenopathy,PFIZER\BIONTECH,61.0,¥|ªÏµh
+F,N,Headache,Intensive care,Nausea,Superior sagittal sinus thrombosis,Transverse sinus thrombosis,MODERNA,37.0,ÀYÀVµh
+F,N,Abdominal pain upper,Headache,Nausea,Pain,Pyrexia,PFIZER\BIONTECH,68.0,¥|ªÏµh
+F,N,Abdominal pain,Abdominal pain lower,Activated partial thromboplastin time,Appendicectomy,Ascites,PFIZER\BIONTECH,52.0,¥|ªÏµh
+F,N,Abdominal pain upper,Fatigue,Injection site discomfort,Injection site erythema,Injection site swelling,MODERNA,31.0,¥|ªÏµh
+M,Y,Abdominal pain,Chest X-ray,Chest pain,Computerised tomogram,Computerised tomogram abdomen,MODERNA,77.0,¥|ªÏµh
+M,N,Abdominal pain upper,Amylase,Computerised tomogram abdomen abnormal,Computerised tomogram pelvis,Differential white blood cell count,MODERNA,64.0,¥|ªÏµh
+F,N,Pain in extremity,Palpitations,Rash,Skin tightness,Tachycardia,MODERNA,36.0,¨ä¥Lµh
+M,N,Abdominal pain,Appendicectomy,Appendicitis perforated,Chills,Gait disturbance,PFIZER\BIONTECH,43.0,¥|ªÏµh
+F,N,Abdominal pain,Asthenia,Dizziness,Electrocardiogram normal,Feeling cold,PFIZER\BIONTECH,47.0,¥|ªÏµh
+F,N,Headache,Heart rate increased,Lip pruritus,Lip swelling,Pharyngeal swelling,PFIZER\BIONTECH,47.0,ÀYÀVµh
+F,N,Axillary pain,Fatigue,Headache,Hypoaesthesia,Lymphadenopathy,PFIZER\BIONTECH,20.0,¥|ªÏµh
+F,N,Abdominal pain,Appendicectomy,Appendicitis,Blood test normal,Computerised tomogram abnormal,PFIZER\BIONTECH,60.0,¥|ªÏµh
+M,N,Chest pain,Electrocardiogram abnormal,Headache,Hypoaesthesia,Hypoaesthesia eye,MODERNA,34.0,Âß·Fµh
+M,N,Abdominal pain,Acute abdomen,Blood test,Chest pain,Complicated appendicitis,MODERNA,56.0,¥|ªÏµh
+F,N,Abdominal pain upper,Abortion spontaneous,Exposure during pregnancy,Pregnancy,Vaginal haemorrhage,MODERNA,32.0,¥|ªÏµh
+F,N,Pain in extremity,Palpitations,Peripheral swelling,Pneumonitis,SARS-CoV-2 test positive,MODERNA,52.0,¨ä¥Lµh
+F,N,Abdominal pain,Chills,Diarrhoea,Full blood count,Hypotension,MODERNA,46.0,¥|ªÏµh
+F,N,Headache,Herpes zoster,Magnetic resonance imaging,Pain,Pyrexia,MODERNA,38.0,ÀYÀVµh
+F,N,Abdominal pain,Appendicectomy,Appendicitis,Appendicitis perforated,Back pain,PFIZER\BIONTECH,49.0,¥|ªÏµh
+F,N,Abdominal pain,Appendicectomy,Appendicitis,Appendicitis perforated,Back pain,PFIZER\BIONTECH,49.0,¥|ªÏµh
+F,N,Chest pain,Decreased appetite,Electrocardiogram T wave abnormal,Headache,Heart rate increased,MODERNA,29.0,Âß·Fµh
+F,N,Back pain,Computerised tomogram head,Headache,Malaise,Nausea,PFIZER\BIONTECH,25.0,Âß·Fµh
+F,N,Abdominal pain,Abdominal pain lower,Appendicectomy,Appendicitis,Computerised tomogram abdomen,MODERNA,40.0,¥|ªÏµh
+F,N,Eye pain,Facial pain,Fatigue,Feeling of body temperature change,Headache,MODERNA,59.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia,Injection site pain,Laboratory test,Mobility decreased,MODERNA,43.0,ÀYÀVµh
+M,N,Abdominal pain upper,Asthenia,Blood potassium decreased,Cardiac monitoring abnormal,Dyspnoea,MODERNA,47.0,¥|ªÏµh
+M,N,Bone pain,Chills,Culture stool negative,Culture urine negative,Dehydration,MODERNA,78.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Aspartate aminotransferase,Cholecystectomy,Computerised tomogram,Magnetic resonance imaging,MODERNA,51.0,¥|ªÏµh
+F,N,Abdominal pain,Blood test,Computerised tomogram,Malaise,Nausea,MODERNA,56.0,¥|ªÏµh
+F,N,Abdominal pain,Exposure during pregnancy,Human chorionic gonadotropin positive,Malaise,Pregnancy test urine positive,MODERNA,41.0,¥|ªÏµh
+F,N,Abdominal pain,Asthenia,Asthma,Body temperature increased,Bronchial hyperreactivity,PFIZER\BIONTECH,55.0,¥|ªÏµh
+F,N,Abdominal pain,Arthralgia,Chest pain,Chills,Decreased appetite,PFIZER\BIONTECH,42.0,¥|ªÏµh
+F,N,Abdominal pain,Appendicectomy,Appendicitis,Computerised tomogram abdomen,Computerised tomogram pelvis,MODERNA,39.0,¥|ªÏµh
+F,N,Abdominal pain,Acute myocardial infarction,Alanine aminotransferase increased,Aspartate aminotransferase increased,Blood alkaline phosphatase increased,PFIZER\BIONTECH,76.0,¥|ªÏµh
+M,Y,Pain in extremity,Pyrexia,Resuscitation,Syncope,Vomiting,MODERNA,82.0,¨ä¥Lµh
+F,N,Headache,Pain,Palpitations,Pyrexia,Stress cardiomyopathy,PFIZER\BIONTECH,58.0,ÀYÀVµh
+M,N,Chest pain,Computerised tomogram abdomen abnormal,Haemoglobin decreased,Haemoperitoneum,Therapeutic embolisation,MODERNA,71.0,Âß·Fµh
+F,N,Pain in extremity,Polymyalgia rheumatica,Red blood cell sedimentation rate,SARS-CoV-2 antibody test positive,SARS-CoV-2 test negative,PFIZER\BIONTECH,68.0,¨ä¥Lµh
+F,N,Abdominal pain,Abdominal tenderness,Abnormal sensation in eye,Asthenopia,Back pain,PFIZER\BIONTECH,39.0,¥|ªÏµh
+M,N,Chest pain,Dizziness,Dyspnoea,Pain in jaw,Palpitations,PFIZER\BIONTECH,92.0,Âß·Fµh
+M,N,Abdominal pain,Asthenia,Colitis ischaemic,Computerised tomogram abnormal,Diarrhoea,MODERNA,67.0,¥|ªÏµh
+M,Y,Back pain,Blood culture positive,C-reactive protein increased,Cerebral haemorrhage,Chest X-ray,MODERNA,85.0,Âß·Fµh
+M,Y,Chest pain,Coagulation test,Computerised tomogram head abnormal,Computerised tomogram thorax normal,Dyspnoea,MODERNA,85.0,Âß·Fµh
+M,Y,Neck pain,Pyrexia,Seizure like phenomena,Unresponsive to stimuli,Urine analysis,MODERNA,85.0,ÀYÀVµh
+M,N,Abdominal pain,Blood urea increased,Computerised tomogram abdomen abnormal,Dehydration,Haemoconcentration,PFIZER\BIONTECH,63.0,¥|ªÏµh
+M,N,Chest pain,Computerised tomogram abdomen,Computerised tomogram abdomen abnormal,Constipation,Cytomegalovirus test,MODERNA,31.0,Âß·Fµh
+M,Y,Abdominal pain,Asthenia,Constipation,Death,Decreased appetite,PFIZER\BIONTECH,92.0,¥|ªÏµh
+F,N,Headache,Heart rate decreased,Hyperhidrosis,Influenza like illness,Loss of consciousness,MODERNA,58.0,ÀYÀVµh
+F,N,Back pain,Chest pain,Fatigue,Headache,Pain,PFIZER\BIONTECH,33.0,Âß·Fµh
+F,N,Chest pain,Cough,Diarrhoea,Dyspepsia,Electrocardiogram normal,PFIZER\BIONTECH,63.0,Âß·Fµh
+F,N,Headache,Hypoaesthesia,Hypotonia,International normalised ratio increased,Lymphocyte percentage increased,PFIZER\BIONTECH,29.0,ÀYÀVµh
+F,N,Headache,Hypoaesthesia,Hypotonia,International normalised ratio increased,Lymphocyte percentage increased,PFIZER\BIONTECH,29.0,ÀYÀVµh
+F,N,Pulmonary pain,Pyrexia,Red cell distribution width normal,Retching,Sensation of foreign body,PFIZER\BIONTECH,29.0,Âß·Fµh
+F,N,Pulmonary pain,Pyrexia,Red cell distribution width normal,Retching,Sensation of foreign body,PFIZER\BIONTECH,29.0,Âß·Fµh
+F,N,Oropharyngeal pain,Pharyngitis,Pyrexia,Respiratory syncytial virus test negative,SARS-CoV-2 test negative,PFIZER\BIONTECH,31.0,¨ä¥Lµh
+F,N,Abdominal pain,Chills,Diarrhoea,Exposure during pregnancy,Nausea,PFIZER\BIONTECH,31.0,¥|ªÏµh
+F,N,Abdominal pain lower,Arthralgia,Cast application,Chills,Condition aggravated,MODERNA,56.0,¥|ªÏµh
+F,N,Back pain,Computerised tomogram,Gait disturbance,Magnetic resonance imaging,Neuropathy peripheral,PFIZER\BIONTECH,51.0,Âß·Fµh
+F,N,Abdominal pain upper,Blood alkaline phosphatase increased,Chills,Decreased appetite,Fatigue,MODERNA,51.0,¥|ªÏµh
+M,N,Chest pain,Computerised tomogram thorax abnormal,Fibrin D dimer increased,Hypopnoea,Lung opacity,PFIZER\BIONTECH,61.0,Âß·Fµh
+F,N,Back pain,Computerised tomogram head,Full blood count,Guillain-Barre syndrome,Immunoglobulin therapy,PFIZER\BIONTECH,41.0,Âß·Fµh
+F,N,Back pain,Computerised tomogram head,Full blood count,Guillain-Barre syndrome,Immunoglobulin therapy,PFIZER\BIONTECH,41.0,Âß·Fµh
+F,N,Abdominal pain upper,Ammonia increased,Anxiety,Chest discomfort,Chest pain,PFIZER\BIONTECH,31.0,¥|ªÏµh
+F,N,Headache,Injected limb mobility decreased,Injection site pain,Myalgia,Pain,PFIZER\BIONTECH,49.0,ÀYÀVµh
+F,N,Abdominal pain upper,Dehydration,Exposure during pregnancy,Nausea,Vomiting,MODERNA,31.0,¥|ªÏµh
+M,N,Chest pain,Chills,Cold sweat,Discomfort,Dyspnoea,PFIZER\BIONTECH,31.0,Âß·Fµh
+F,N,Headache,Hot flush,Hyperhidrosis,Hypertension,Immediate post-injection reaction,MODERNA,47.0,ÀYÀVµh
+F,N,Abdominal pain lower,Alanine aminotransferase increased,Aspartate aminotransferase increased,Asthenia,Back pain,PFIZER\BIONTECH,34.0,¥|ªÏµh
+F,N,Abdominal pain,Abortion spontaneous,Back pain,Blood test,Exposure during pregnancy,PFIZER\BIONTECH,33.0,¥|ªÏµh
+M,N,Abdominal pain,Blood bilirubin normal,Haemoglobin decreased,Haptoglobin decreased,Headache,PFIZER\BIONTECH,27.0,¥|ªÏµh
+M,N,Back pain,Cardiovascular evaluation,Condition aggravated,Pain in extremity,Vaccination complication,MODERNA,84.0,Âß·Fµh
+M,N,Chest pain,Chills,Constipation,Decreased appetite,Dehydration,MODERNA,24.0,Âß·Fµh
+F,N,Headache,Hyperhidrosis,Influenza like illness,Myalgia,Neck pain,PFIZER\BIONTECH,38.0,ÀYÀVµh
+F,N,Oropharyngeal pain,Pain,Pain in extremity,Palpitations,Pyrexia,PFIZER\BIONTECH,38.0,¨ä¥Lµh
+M,N,Abdominal pain,Back pain,Blood urine present,Nausea,Sleep disorder,MODERNA,71.0,¥|ªÏµh
+F,N,Headache,Immediate post-injection reaction,Lip swelling,Pharyngeal swelling,Swollen tongue,PFIZER\BIONTECH,27.0,ÀYÀVµh
+M,N,Chest pain,Electrocardiogram ST-T change,Electrocardiogram ST-T segment elevation,Myalgia,Myocarditis,MODERNA,20.0,Âß·Fµh
+M,N,Pain in extremity,Paraesthesia,Sudden hearing loss,Tinnitus,Vertigo,PFIZER\BIONTECH,70.0,¨ä¥Lµh
+M,N,Abdominal pain,Abdominal pain lower,Back pain,Blood culture negative,C-reactive protein normal,MODERNA,25.0,¥|ªÏµh
+F,Y,Abdominal pain,Ascites,Blood alkaline phosphatase increased,Blood chloride decreased,Blood creatinine increased,MODERNA,64.0,¥|ªÏµh
+M,N,Abdominal pain upper,Abscess,Diverticulitis,Intestinal perforation,Pyrexia,PFIZER\BIONTECH,52.0,¥|ªÏµh
+F,N,Neck pain,Pain in extremity,Pyrexia,Retching,Vomiting,MODERNA,40.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site swelling,Injection site warmth,Muscle swelling,MODERNA,37.0,ÀYÀVµh
+F,N,Headache,Injection site rash,Pain,Pyrexia,Rash erythematous,PFIZER\BIONTECH,60.0,ÀYÀVµh
+F,N,Abdominal pain,Decreased appetite,Diarrhoea,Lymph node pain,Lymphadenopathy,MODERNA,45.0,¥|ªÏµh
+F,N,Abdominal pain,Abortion spontaneous,Blood test,Exposure during pregnancy,Pain in extremity,MODERNA,38.0,¥|ªÏµh
+M,N,Chest pain,Computerised tomogram abnormal,Fibrin D dimer increased,Pulmonary embolism,Thrombosis,MODERNA,45.0,Âß·Fµh
+F,N,Abdominal pain,Blood test,Chills,Headache,Influenza,MODERNA,23.0,¥|ªÏµh
+F,N,Neck pain,Pain,Pyrexia,Rhabdomyolysis,Septic encephalopathy,PFIZER\BIONTECH,65.0,ÀYÀVµh
+F,N,Abdominal pain,Anaphylactic reaction,Angioedema,Dysphonia,Headache,MODERNA,32.0,¥|ªÏµh
+F,N,Abdominal pain upper,Anaphylactic reaction,Asthma,Chest discomfort,Chills,MODERNA,28.0,¥|ªÏµh
+F,N,Headache,Malaise,Nausea,Pyrexia,Throat tightness,MODERNA,28.0,ÀYÀVµh
+F,N,Pain in extremity,Perfusion brain scan normal,Peripheral swelling,Protein total normal,Scan with contrast,PFIZER\BIONTECH,51.0,¨ä¥Lµh
+M,N,Painful respiration,Pericardial drainage,Pericardial drainage test,Pericardial effusion,Pericarditis,MODERNA,68.0,¨ä¥Lµh
+F,N,Abdominal pain,Anaphylactic reaction,Chest X-ray,Condition aggravated,Laboratory test,PFIZER\BIONTECH,43.0,¥|ªÏµh
+F,N,Headache,Hypertension,Hypoaesthesia,Magnetic resonance imaging brain,Magnetic resonance imaging neck,PFIZER\BIONTECH,51.0,ÀYÀVµh
+F,N,Headache,Injection site pain,Injection site swelling,Myalgia,Pyrexia,MODERNA,55.0,ÀYÀVµh
+F,N,Back pain,Chills,Condition aggravated,Diarrhoea,Sepsis,PFIZER\BIONTECH,89.0,Âß·Fµh
+F,N,Abdominal pain,Cholecystectomy,Computerised tomogram abnormal,Full blood count,Gallbladder disorder,MODERNA,42.0,¥|ªÏµh
+F,N,Facial pain,Facial paralysis,Fatigue,Headache,Hypoaesthesia,MODERNA,34.0,ÀYÀVµh
+F,N,Axillary pain,Breast pain,Breast swelling,Injection site pruritus,Injection site swelling,MODERNA,42.0,¥|ªÏµh
+F,Y,Headache,Injury,Road traffic accident,Spinal compression fracture,Spinal stenosis,MODERNA,62.0,ÀYÀVµh
+F,N,Abdominal pain,Abortion spontaneous,COVID-19,Exposure during pregnancy,Full blood count,PFIZER\BIONTECH,43.0,¥|ªÏµh
+F,N,Abdominal pain upper,Blood test,Computerised tomogram,Dysgeusia,Dysstasia,MODERNA,41.0,¥|ªÏµh
+F,N,Headache,Magnetic resonance imaging,Nausea,SARS-CoV-2 test negative,Syncope,PFIZER\BIONTECH,58.0,ÀYÀVµh
+M,Y,Headache,Platelet count normal,SARS-CoV-2 test negative,Subdural haematoma,Surgery,MODERNA,76.0,ÀYÀVµh
+F,N,Pain of skin,Peripheral swelling,Spinal X-ray,Urinary tract infection,Weight bearing difficulty,MODERNA,54.0,¨ä¥Lµh
+M,N,Abdominal pain,Appendicectomy,Computerised tomogram abdomen normal,Laboratory test,Laparoscopic surgery,PFIZER\BIONTECH,54.0,¥|ªÏµh
+F,N,Abdominal pain,Appendicitis,Blood electrolytes normal,Computerised tomogram abnormal,Full blood count normal,PFIZER\BIONTECH,71.0,¥|ªÏµh
+F,N,Headache,Nausea,Pain,Pyrexia,Visual impairment,MODERNA,53.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site warmth,Limb discomfort,MODERNA,27.0,ÀYÀVµh
+F,N,Headache,Lower limb fracture,Nausea,Pyrexia,X-ray,PFIZER\BIONTECH,66.0,ÀYÀVµh
+F,N,Headache,Lower limb fracture,Nausea,Pyrexia,X-ray,PFIZER\BIONTECH,66.0,ÀYÀVµh
+F,N,Abdominal pain upper,Arthralgia,Back pain,Blood glucose,Blood test,MODERNA,30.0,¥|ªÏµh
+F,N,Chest pain,Computerised tomogram,Fibrin D dimer increased,Headache,Hypoaesthesia,MODERNA,25.0,Âß·Fµh
+M,N,Pain in extremity,Peripheral swelling,Prothrombin time prolonged,Skin discolouration,Syncope,PFIZER\BIONTECH,66.0,¨ä¥Lµh
+F,N,Chest pain,Dyspnoea,Gait inability,Hypoaesthesia,Palpitations,PFIZER\BIONTECH,67.0,Âß·Fµh
+F,N,Oropharyngeal pain,Pain,Pain in jaw,Rash,Rash vesicular,PFIZER\BIONTECH,77.0,¨ä¥Lµh
+F,N,Breast pain,Headache,Injection site pain,Injection site swelling,Pain,PFIZER\BIONTECH,44.0,Âß·Fµh
+F,N,Headache,Injection site pruritus,Pain,Vaccination site erythema,Vaccination site induration,MODERNA,62.0,ÀYÀVµh
+M,N,Headache,Influenza like illness,Pain,Pain in extremity,Pyrexia,PFIZER\BIONTECH,46.0,ÀYÀVµh
+F,N,Abdominal pain,Chills,Crohn's disease,Dizziness,Fatigue,PFIZER\BIONTECH,51.0,¥|ªÏµh
+M,Y,Headache,Intraosseous access placement,Laryngeal mask airway insertion,Oxygen saturation decreased,Pulse absent,MODERNA,62.0,ÀYÀVµh
+F,N,Abdominal pain,Abdominal pain lower,Appendicitis,Computerised tomogram abdomen,Laboratory test normal,PFIZER\BIONTECH,34.0,¥|ªÏµh
+F,N,Pain in extremity,Platelet count normal,Protein total increased,Prothrombin level normal,Red blood cell count normal,MODERNA,67.0,¨ä¥Lµh
+F,Y,Abdominal pain,Blood culture positive,Death,Endotracheal intubation,Escherichia bacteraemia,PFIZER\BIONTECH,80.0,¥|ªÏµh
+M,N,Abdominal pain lower,Abdominal pain upper,Alanine aminotransferase increased,Aspartate aminotransferase increased,Bile culture negative,MODERNA,72.0,¥|ªÏµh
+F,N,Headache,Malaise,Myalgia,Neck pain,Pyrexia,MODERNA,73.0,ÀYÀVµh
+F,N,Headache,Lacrimation increased,Lip disorder,Lip swelling,Swollen tongue,MODERNA,59.0,ÀYÀVµh
+M,N,Headache,Loss of consciousness,Somnolence,Tinnitus,Vision blurred,MODERNA,46.0,ÀYÀVµh
+F,N,Headache,Leukocytosis,Loss of consciousness,Magnetic resonance imaging brain normal,Magnetic resonance imaging spinal abnormal,PFIZER\BIONTECH,80.0,ÀYÀVµh
+F,N,Abdominal pain upper,Back pain,Computerised tomogram abdomen abnormal,Hepatobiliary scan,Lipase increased,PFIZER\BIONTECH,48.0,¥|ªÏµh
+F,N,Abdominal pain upper,Back pain,Computerised tomogram abdomen abnormal,Hepatobiliary scan,Lipase increased,PFIZER\BIONTECH,48.0,¥|ªÏµh
+F,N,Abdominal pain upper,Asthenia,Body temperature decreased,Chills,Decreased appetite,PFIZER\BIONTECH,57.0,¥|ªÏµh
+F,N,Abdominal pain,Blood potassium decreased,Condition aggravated,Crohn's disease,Dehydration,PFIZER\BIONTECH,49.0,¥|ªÏµh
+M,N,Back pain,C-reactive protein increased,Chest X-ray normal,Chest pain,Echocardiogram normal,MODERNA,86.0,Âß·Fµh
+F,N,Pain in extremity,Posture abnormal,Seizure,Skin discolouration,Spinal compression fracture,MODERNA,55.0,¨ä¥Lµh
+M,N,Abdominal pain,Amylase normal,Antineutrophil cytoplasmic antibody negative,Antinuclear antibody negative,Blood calcium normal,MODERNA,18.0,¥|ªÏµh
+F,Y,Abdominal pain upper,Aspiration,Death,Fatigue,Haemorrhage,MODERNA,78.0,¥|ªÏµh
+M,N,Abdominal pain,Asthenia,Computerised tomogram head,Full blood count,Metabolic function test,MODERNA,90.0,¥|ªÏµh
+M,N,Chest pain,Dyspnoea,Electrocardiogram abnormal,Enzyme abnormality,Mechanical ventilation,MODERNA,71.0,Âß·Fµh
+F,N,Chest pain,Dyspepsia,Dyspnoea,Echocardiogram normal,Electrocardiogram normal,MODERNA,45.0,Âß·Fµh
+F,N,Chest pain,Dyspepsia,Dyspnoea,Echocardiogram normal,Electrocardiogram normal,MODERNA,45.0,Âß·Fµh
+M,N,Back pain,Condition aggravated,Gait inability,Pain,Piriformis syndrome,MODERNA,75.0,Âß·Fµh
+F,N,Pain in jaw,Pulmonary embolism,Pyrexia,SARS-CoV-2 test negative,Sleep disorder,MODERNA,46.0,ÀYÀVµh
+M,N,Abdominal pain upper,Anaphylactic shock,Aphasia,Diarrhoea,Pruritus,MODERNA,71.0,¥|ªÏµh
+F,Y,Back pain,Death,Diet refusal,Fluid intake reduced,General physical health deterioration,MODERNA,85.0,Âß·Fµh
+M,N,Abdominal pain,Abdominal pain upper,Blood creatine phosphokinase,Blood lactate dehydrogenase,C-reactive protein,PFIZER\BIONTECH,89.0,¥|ªÏµh
+M,N,Abdominal pain,Abdominal pain lower,Abdominal rebound tenderness,Abdominal tenderness,Arthralgia,MODERNA,87.0,¥|ªÏµh
+M,N,Back pain,Blood test,Breath sounds abnormal,Chest X-ray,Computerised tomogram abdomen,MODERNA,87.0,Âß·Fµh
+F,Y,Back pain,Blood creatinine increased,Blood lactate dehydrogenase increased,Death,Haemoglobin decreased,PFIZER\BIONTECH,56.0,Âß·Fµh
+M,N,Headache,Impaired work ability,Influenza virus test negative,Pyrexia,SARS-CoV-2 test negative,PFIZER\BIONTECH,67.0,ÀYÀVµh
+M,N,Back pain,Dysphagia,Ecchymosis,Injection site pain,Injection site paraesthesia,PFIZER\BIONTECH,29.0,Âß·Fµh
+F,N,Flank pain,Laboratory test,Pain,Painful respiration,Pleural effusion,MODERNA,36.0,Âß·Fµh
+F,N,Back pain,Blood alkaline phosphatase increased,C-reactive protein increased,Chest pain,Computerised tomogram,MODERNA,58.0,Âß·Fµh
+F,N,Abdominal pain upper,Blood test abnormal,Computerised tomogram abnormal,Nausea,Pain,MODERNA,45.0,¥|ªÏµh
+M,N,Pain in extremity,Pruritus,Rash,Rash erythematous,Rash maculo-papular,PFIZER\BIONTECH,68.0,¨ä¥Lµh
+M,N,Abdominal pain,Blood test,Chest pain,Chills,Computerised tomogram thorax,MODERNA,77.0,¥|ªÏµh
+F,N,Headache,Hemianopia,Hypertension,Metabolic function test,Troponin normal,PFIZER\BIONTECH,66.0,ÀYÀVµh
+M,N,Headache,Lumbar puncture,Magnetic resonance imaging brain,Muscle atrophy,Pain,MODERNA,76.0,ÀYÀVµh
+F,N,Headache,Hypoacusis,Hypoaesthesia,Malaise,Ocular hyperaemia,PFIZER\BIONTECH,49.0,ÀYÀVµh
+F,N,Abdominal pain,Ageusia,Angiogram,Anosmia,Aspartate aminotransferase increased,MODERNA,50.0,¥|ªÏµh
+F,N,Back pain,Blood test,Chest X-ray,Cholelithiasis,Coagulation test,MODERNA,35.0,Âß·Fµh
+F,N,Headache,Magnetic resonance imaging,Mental impairment,Myalgia,Night sweats,MODERNA,61.0,ÀYÀVµh
+F,N,Ear pain,Electromyogram,Feeling abnormal,Gait disturbance,Headache,PFIZER\BIONTECH,33.0,ÀYÀVµh
+F,N,Abdominal pain,Blood test,Computerised tomogram abnormal,Injection site pain,Skin discolouration,MODERNA,51.0,¥|ªÏµh
+F,N,Back pain,Chest discomfort,Communication disorder,Condition aggravated,Confusional state,MODERNA,47.0,Âß·Fµh
+M,N,Chest pain,Dizziness,Dyspnoea,Electrocardiogram,Feeling hot,MODERNA,53.0,Âß·Fµh
+M,N,Headache,Mental status changes,Metabolic function test,Procalcitonin,Pyrexia,MODERNA,54.0,ÀYÀVµh
+F,N,Abdominal pain lower,Appendicectomy,Appendicitis,Computerised tomogram,Laboratory test,MODERNA,39.0,¥|ªÏµh
+F,N,Abdominal pain,Abdominal pain upper,Blood test normal,Computerised tomogram abdomen abnormal,Influenza like illness,MODERNA,72.0,¥|ªÏµh
+M,N,Headache,Hyperhidrosis,Hypertension,Intensive care,Magnetic resonance imaging abdominal abnormal,MODERNA,41.0,ÀYÀVµh
+F,N,Chest pain,Dyspnoea,Echocardiogram normal,Electrocardiogram normal,Full blood count normal,PFIZER\BIONTECH,39.0,Âß·Fµh
+F,N,Abdominal pain upper,Blood test,Computerised tomogram,Influenza like illness,Nausea,MODERNA,72.0,¥|ªÏµh
+F,N,Abdominal pain,Alanine aminotransferase increased,Antimitochondrial antibody normal,Antineutrophil cytoplasmic antibody,Antinuclear antibody,PFIZER\BIONTECH,39.0,¥|ªÏµh
+M,N,Abdominal pain,Alanine aminotransferase increased,Aspartate aminotransferase increased,Blood lactate dehydrogenase increased,Blood smear test,PFIZER\BIONTECH,33.0,¥|ªÏµh
+M,N,Chest pain,Complement factor C3,Computerised tomogram abdomen,Computerised tomogram thorax,Coxsackie virus test,PFIZER\BIONTECH,36.0,Âß·Fµh
+F,Y,Headache,Muscular weakness,Musculoskeletal stiffness,Pain,Presyncope,PFIZER\BIONTECH,83.0,ÀYÀVµh
+F,N,Abdominal pain,Appendicitis perforated,Computerised tomogram,Decreased appetite,Laboratory test abnormal,PFIZER\BIONTECH,57.0,¥|ªÏµh
+F,N,Abdominal pain,Appendicitis perforated,Computerised tomogram,Decreased appetite,Laboratory test abnormal,PFIZER\BIONTECH,57.0,¥|ªÏµh
+F,N,Headache,Hemiparesis,Hypoaesthesia,Impaired work ability,Intervertebral disc operation,MODERNA,49.0,ÀYÀVµh
+F,N,Abdominal pain,Condition aggravated,Crohn's disease,Diarrhoea,Diarrhoea haemorrhagic,MODERNA,45.0,¥|ªÏµh
+M,N,Abdominal pain,Colitis,Computerised tomogram abnormal,Diarrhoea,Dizziness,PFIZER\BIONTECH,54.0,¥|ªÏµh
+M,N,Headache,Insomnia,Nausea,Rhinorrhoea,Sinus congestion,PFIZER\BIONTECH,70.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site mass,Injection site pain,Pyrexia,MODERNA,34.0,ÀYÀVµh
+F,N,Headache,Heart rate decreased,Hyperhidrosis,Myalgia,Nausea,MODERNA,29.0,ÀYÀVµh
+M,N,Abdominal pain,Antithrombin III,Back pain,Blood immunoglobulin G normal,Blood immunoglobulin M,PFIZER\BIONTECH,34.0,¥|ªÏµh
+F,N,Axillary pain,Fatigue,Injection site erythema,Injection site pain,Injection site pruritus,MODERNA,49.0,¥|ªÏµh
+F,N,Abdominal pain upper,Arthralgia,Decreased appetite,Diarrhoea,Headache,MODERNA,76.0,¥|ªÏµh
+F,N,Back pain,Chills,Feeling cold,Headache,Neck pain,PFIZER\BIONTECH,74.0,Âß·Fµh
+F,N,Back pain,Decreased appetite,Disturbance in attention,Fatigue,Feeling cold,MODERNA,76.0,Âß·Fµh
+F,N,Axillary pain,Breast pain,Chills,Discomfort,Fatigue,MODERNA,45.0,¥|ªÏµh
+F,N,Abdominal pain,Abortion spontaneous,Back pain,Exposure during pregnancy,Human chorionic gonadotropin,MODERNA,32.0,¥|ªÏµh
+F,N,Abdominal pain,Hepatic pain,Hypokinesia,Injection site swelling,Pain in extremity,PFIZER\BIONTECH,52.0,¥|ªÏµh
+F,N,Back pain,Injection site erythema,Injection site pain,Injection site warmth,Pain in extremity,MODERNA,67.0,Âß·Fµh
+F,N,Headache,Injection site swelling,Injection site warmth,Nausea,Oropharyngeal pain,MODERNA,29.0,ÀYÀVµh
+F,N,Abdominal pain,Aphonia,Arthralgia,Asthenia,Blood glucose increased,MODERNA,50.0,¥|ªÏµh
+F,N,Pulmonary pain,Pyrexia,Restlessness,Sleep disorder,Speech disorder,MODERNA,50.0,Âß·Fµh
+F,N,Pain in extremity,Peripheral swelling,Pyrexia,SARS-CoV-2 test negative,White blood cell count increased,MODERNA,28.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Anal incontinence,Blood pressure decreased,Dizziness,Fatigue,PFIZER\BIONTECH,70.0,¥|ªÏµh
+F,N,Axillary pain,Fatigue,Headache,Immediate post-injection reaction,Injection site erythema,PFIZER\BIONTECH,42.0,¥|ªÏµh
+F,N,Chest pain,Dizziness,Dry skin,Flushing,Nausea,PFIZER\BIONTECH,54.0,Âß·Fµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site swelling,Pain in extremity,MODERNA,56.0,ÀYÀVµh
+F,N,Headache,Mobility decreased,Nausea,Pain,Pain in extremity,MODERNA,20.0,ÀYÀVµh
+F,N,Back pain,Chills,Diarrhoea,Discomfort,Fatigue,MODERNA,61.0,Âß·Fµh
+F,N,Abdominal pain,Body temperature increased,Chills,Dizziness,Dyspnoea,MODERNA,77.0,¥|ªÏµh
+F,N,Abdominal pain,Body temperature increased,Chills,Dizziness,Dyspnoea,MODERNA,77.0,¥|ªÏµh
+F,N,Genital pain,Gynaecological examination,Herpes simplex,Injection site reaction,Labia enlarged,MODERNA,65.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site swelling,Rash,PFIZER\BIONTECH,48.0,ÀYÀVµh
+F,N,Ear pain,Ear swelling,Facial paralysis,Full blood count normal,Head discomfort,MODERNA,30.0,ÀYÀVµh
+F,N,Headache,Metabolic function test,Otitis media,Pain,Pyrexia,MODERNA,30.0,ÀYÀVµh
+F,N,Headache,Influenza like illness,Nausea,Oxygen saturation decreased,Pain,PFIZER\BIONTECH,37.0,ÀYÀVµh
+F,N,Axillary pain,Chills,Pain,Pruritus,Rash,MODERNA,59.0,¥|ªÏµh
+F,N,Chest pain,Mobility decreased,Pain in extremity,Rhinorrhoea,Sneezing,PFIZER\BIONTECH,81.0,Âß·Fµh
+F,N,Headache,Injection site erythema,Injection site induration,Injection site pruritus,Injection site swelling,MODERNA,51.0,ÀYÀVµh
+F,N,Headache,Injection site pain,Pain,Pyrexia,Sleep disorder,MODERNA,35.0,ÀYÀVµh
+F,N,Back pain,Grip strength decreased,Nausea,Neuralgia,Pain,MODERNA,71.0,Âß·Fµh
+F,N,Pain in extremity,Peripheral swelling,Pyrexia,Rash,Rash macular,MODERNA,71.0,¨ä¥Lµh
+M,Y,Abdominal pain,Asthenia,Blood creatinine increased,COVID-19,Decreased appetite,PFIZER\BIONTECH,55.0,¥|ªÏµh
+F,N,Axillary pain,Injection site erythema,Injection site induration,Injection site pain,Pyrexia,MODERNA,62.0,¥|ªÏµh
+F,N,Abdominal pain,Diarrhoea,Headache,Nausea,Pain,MODERNA,56.0,¥|ªÏµh
+F,N,Pain in extremity,Peripheral swelling,Surgery,Suture insertion,Vomiting,PFIZER\BIONTECH,51.0,¨ä¥Lµh
+M,N,Back pain,Chills,Dizziness,Gastrointestinal disorder,Headache,MODERNA,69.0,Âß·Fµh
+M,N,Abdominal pain upper,Asthenia,Chills,Dysstasia,Headache,MODERNA,79.0,¥|ªÏµh
+M,N,Headache,Injection site erythema,Injection site swelling,Myalgia,Nausea,MODERNA,60.0,ÀYÀVµh
+F,N,Headache,Injection site pruritus,Injection site rash,Injection site warmth,Pyrexia,MODERNA,60.0,ÀYÀVµh
+F,N,Back pain,Calculus urinary,Haematuria,Micturition urgency,Pollakiuria,MODERNA,34.0,Âß·Fµh
+F,N,Abdominal pain,Arthralgia,Back pain,Decreased appetite,Fatigue,MODERNA,67.0,¥|ªÏµh
+F,N,Headache,Influenza like illness,Lymph node pain,Neck pain,Pain in extremity,PFIZER\BIONTECH,77.0,ÀYÀVµh
+F,N,Axillary pain,Injection site erythema,Injection site induration,Injection site mass,Injection site pruritus,MODERNA,40.0,¥|ªÏµh
+F,N,Back pain,Eye pain,Fear,Headache,Musculoskeletal stiffness,MODERNA,66.0,Âß·Fµh
+F,N,Oesophageal pain,Pain in extremity,Photophobia,Throat irritation,Throat tightness,MODERNA,66.0,ÀYÀVµh
+F,N,Abdominal pain,Arthralgia,Chills,Feeling abnormal,Myalgia,PFIZER\BIONTECH,47.0,¥|ªÏµh
+M,N,Abdominal pain,Chills,Decreased appetite,Headache,Injection site pain,MODERNA,65.0,¥|ªÏµh
+F,N,Abdominal pain upper,Chills,Computerised tomogram normal,Diarrhoea,Dyspnoea,MODERNA,40.0,¥|ªÏµh
+F,N,Headache,Nausea,Pain in extremity,Pyrexia,SARS-CoV-2 test negative,MODERNA,40.0,ÀYÀVµh
+F,N,Chest pain,Chills,Dyspnoea,Fatigue,Hallucination,PFIZER\BIONTECH,38.0,Âß·Fµh
+F,N,Chest pain,Feeling abnormal,Gait inability,Hyperhidrosis,Laboratory test,PFIZER\BIONTECH,62.0,Âß·Fµh
+F,N,Chest pain,Feeling abnormal,Gait inability,Hyperhidrosis,Laboratory test,PFIZER\BIONTECH,62.0,Âß·Fµh
+F,N,Axillary pain,Computerised tomogram abnormal,Hemiparesis,Lymphadenitis,Oedema peripheral,MODERNA,29.0,¥|ªÏµh
+F,N,Back pain,Fatigue,Gait disturbance,Headache,Hyperaesthesia,MODERNA,61.0,Âß·Fµh
+F,N,Back pain,Chest discomfort,Chills,Discomfort,Dizziness,MODERNA,50.0,Âß·Fµh
+F,N,Breast pain,Breast swelling,Chills,Erythema,Headache,MODERNA,35.0,Âß·Fµh
+F,N,Lymph node pain,Lymphadenopathy,Mastitis,Nausea,Pyrexia,MODERNA,35.0,¥|ªÏµh
+F,N,Abdominal pain,Chills,Fatigue,Injection site pain,Pain in extremity,PFIZER\BIONTECH,57.0,¥|ªÏµh
+F,N,Chest pain,Chills,Fatigue,Headache,Pain in extremity,MODERNA,68.0,Âß·Fµh
+F,N,Abdominal pain upper,Asthenia,Erythema,Lip pruritus,Lip swelling,MODERNA,54.0,¥|ªÏµh
+F,N,Abdominal pain lower,Breast pain,Chills,Dizziness,Hyperhidrosis,PFIZER\BIONTECH,40.0,¥|ªÏµh
+M,N,Headache,Injection site erythema,Injection site rash,Injection site warmth,Muscle spasms,MODERNA,36.0,ÀYÀVµh
+F,N,Abdominal pain upper,Chills,Diarrhoea,Frequent bowel movements,Malaise,PFIZER\BIONTECH,53.0,¥|ªÏµh
+M,N,Chest pain,Fatigue,Glossodynia,Lip haemorrhage,Lip pain,PFIZER\BIONTECH,80.0,Âß·Fµh
+F,N,Headache,Pain,Pyrexia,Urticaria,Vomiting,MODERNA,53.0,ÀYÀVµh
+F,N,Axillary pain,Injection site swelling,Muscle spasms,Nausea,Oedema peripheral,PFIZER\BIONTECH,50.0,¥|ªÏµh
+F,N,Eye pain,Eye swelling,Herpes zoster,Pain of skin,Rash,MODERNA,47.0,ÀYÀVµh
+F,N,Headache,Injection site erythema,Injection site pain,Injection site swelling,Nausea,PFIZER\BIONTECH,41.0,ÀYÀVµh
+F,N,Chest pain,Chills,Condition aggravated,Diaphragmalgia,Dizziness,MODERNA,22.0,Âß·Fµh
+F,N,Headache,Hypertension,Hypoaesthesia,Magnetic resonance imaging brain normal,Magnetic resonance imaging neck,MODERNA,68.0,ÀYÀVµh
+F,N,Chest pain,Chills,Fatigue,Headache,Myalgia,PFIZER\BIONTECH,70.0,Âß·Fµh
+F,N,Chest pain,Chills,Feeling hot,Headache,Influenza like illness,PFIZER\BIONTECH,70.0,Âß·Fµh
+F,N,Axillary pain,Computerised tomogram,Electrocardiogram normal,Fibrin D dimer normal,Full blood count normal,MODERNA,61.0,¥|ªÏµh
+M,N,Headache,Malaise,Pyrexia,Skin discolouration,Tremor,MODERNA,79.0,ÀYÀVµh
+F,N,Facial pain,Hypoaesthesia,Oral mucosal blistering,Pain in jaw,Paraesthesia,MODERNA,70.0,ÀYÀVµh
+F,N,Back pain,Blood test,Computerised tomogram,Diarrhoea,Impaired work ability,PFIZER\BIONTECH,34.0,Âß·Fµh
+M,N,Abdominal pain upper,Blood test,Computerised tomogram,Dehydration,Diarrhoea,PFIZER\BIONTECH,75.0,¥|ªÏµh
+F,N,Abdominal pain upper,Asthma,Chest discomfort,Condition aggravated,Dyspnoea,PFIZER\BIONTECH,53.0,¥|ªÏµh
+F,N,Headache,Injection site pain,Insomnia,Myalgia,Pain in extremity,MODERNA,75.0,ÀYÀVµh
+M,N,Abdominal pain upper,Blood test normal,Computerised tomogram normal,Diarrhoea,Nausea,PFIZER\BIONTECH,75.0,¥|ªÏµh
+F,N,Abdominal pain,Asthenia,COVID-19,Chills,Cough,PFIZER\BIONTECH,50.0,¥|ªÏµh
+F,N,Breast pain,Chills,Erythema,Fatigue,Mastitis,PFIZER\BIONTECH,37.0,Âß·Fµh
+F,N,Abdominal pain,Diarrhoea,Headache,Nausea,Pyrexia,MODERNA,61.0,¥|ªÏµh
+F,N,Breast pain,Chills,Fatigue,Headache,Mastitis,PFIZER\BIONTECH,37.0,Âß·Fµh
+F,N,Pleuritic pain,Pyrexia,Rash,SARS-CoV-2 antibody test positive,Tachycardia,MODERNA,64.0,Âß·Fµh
+F,N,Breast pain,Breast swelling,Chills,Dizziness,Dyspnoea,MODERNA,60.0,Âß·Fµh
+F,N,Abdominal pain,Diarrhoea,Injection site rash,Nausea,Vomiting,MODERNA,76.0,¥|ªÏµh
+F,N,Ear pain,Full blood count,Metabolic function test,PCO2 decreased,Pleurodesis,PFIZER\BIONTECH,60.0,ÀYÀVµh
+F,N,Axillary pain,Erythema of eyelid,Hordeolum,Injection site erythema,Injection site pruritus,MODERNA,43.0,¥|ªÏµh
+M,N,Flank pain,Joint instability,Mass,Muscular weakness,Musculoskeletal pain,PFIZER\BIONTECH,71.0,Âß·Fµh
+F,N,Back pain,Electromyogram,Injection site movement impairment,Injection site muscle weakness,Injection site pain,MODERNA,66.0,Âß·Fµh
+F,N,Headache,Hyperhidrosis,Injection site pain,Myalgia,Pain,PFIZER\BIONTECH,51.0,ÀYÀVµh
+F,N,Headache,Malaise,Neck pain,Pyrexia,Tremor,MODERNA,79.0,ÀYÀVµh
+F,N,Oropharyngeal pain,Pain in extremity,Pain of skin,Pharyngeal erythema,Pharyngitis,PFIZER\BIONTECH,61.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Arthralgia,Dyspnoea,Erythema,Flushing,PFIZER\BIONTECH,38.0,¥|ªÏµh
+M,N,Headache,Hypophagia,Nausea,Pain,Pain in extremity,MODERNA,48.0,ÀYÀVµh
+F,N,Abdominal pain upper,Arthralgia,Head discomfort,Headache,Heart rate irregular,PFIZER\BIONTECH,38.0,¥|ªÏµh
+F,N,Pain in extremity,Pallor,Paraesthesia,Pulse abnormal,Rash erythematous,PFIZER\BIONTECH,41.0,¨ä¥Lµh
+F,N,Lymph node pain,Nausea,Pain,Pain in extremity,Pain of skin,PFIZER\BIONTECH,70.0,¥|ªÏµh
+F,N,Axillary pain,Breast pain,Contusion,Pain in extremity,Pustule,MODERNA,44.0,¥|ªÏµh
+F,N,Headache,Nausea,Neck pain,Skin laceration,Swelling face,PFIZER\BIONTECH,64.0,ÀYÀVµh
+F,N,Back pain,Culture wound positive,Ear injury,Extradural abscess,Hyperhidrosis,MODERNA,81.0,Âß·Fµh
+M,N,Oropharyngeal pain,Pharyngitis,Pyrexia,Vaccination site dysaesthesia,Vaccination site pain,MODERNA,30.0,¨ä¥Lµh
+M,N,Abdominal pain,Abdominal pain lower,Alanine aminotransferase decreased,Angiogram,Anion gap,PFIZER\BIONTECH,82.0,¥|ªÏµh
+M,N,Abdominal pain,Abdominal pain lower,Alanine aminotransferase decreased,Angiogram,Anion gap,PFIZER\BIONTECH,82.0,¥|ªÏµh
+M,Y,Abdominal pain,Acidosis,Activated partial thromboplastin time prolonged,Alanine aminotransferase increased,Angiogram pulmonary abnormal,MODERNA,58.0,¥|ªÏµh
+M,N,Abdominal pain upper,Asthenia,Balance disorder,Body temperature increased,Chest pain,MODERNA,84.0,¥|ªÏµh
+M,N,Abdominal pain,Abscess intestinal,Acute kidney injury,Agitation,Alanine aminotransferase increased,MODERNA,30.0,¥|ªÏµh
+M,Y,Back pain,Death,Food allergy,Headache,Nausea,MODERNA,36.0,Âß·Fµh
+F,N,Chest pain,Dyspnoea,Echocardiogram,Electrocardiogram,Oedema,PFIZER\BIONTECH,79.0,Âß·Fµh
+M,Y,Abdominal pain,Angiogram pulmonary normal,Apnoeic attack,Blood creatine,Blood creatine phosphokinase increased,MODERNA,79.0,¥|ªÏµh
+F,N,Pain in extremity,Pyrexia,Red blood cell sedimentation rate increased,Rheumatoid factor negative,Skin discolouration,MODERNA,55.0,¨ä¥Lµh
+M,N,Headache,Infection,Magnetic resonance imaging,Seizure,X-ray,MODERNA,73.0,ÀYÀVµh
+F,N,Back pain,Blood test,Chest X-ray,Chest pain,Computerised tomogram abdomen,MODERNA,55.0,Âß·Fµh
+F,N,Headache,Hepatobiliary scan,Impaired gastric emptying,Neck pain,Oesophagogastroduodenoscopy,MODERNA,55.0,ÀYÀVµh
+F,N,Abdominal pain,Acute myocardial infarction,Antiphospholipid syndrome,Atrial fibrillation,Biliary dilatation,MODERNA,77.0,¥|ªÏµh
+F,N,Abdominal pain,Appendicitis,Computerised tomogram abnormal,Culture wound,Full blood count,PFIZER\BIONTECH,33.0,¥|ªÏµh
+M,Y,Headache,Influenza virus test negative,Malaise,Myalgia,Viral test negative,MODERNA,69.0,ÀYÀVµh
+F,N,Abdominal pain,Abdominal pain lower,Appendicitis,Computerised tomogram abdomen abnormal,Computerised tomogram pelvis abnormal,PFIZER\BIONTECH,40.0,¥|ªÏµh
+M,N,Chest pain,Echocardiogram abnormal,Electrocardiogram normal,Fibrin D dimer normal,Left ventricular hypertrophy,MODERNA,54.0,Âß·Fµh
+M,N,Neck pain,Pain in extremity,Right ventricular hypertrophy,Troponin normal,Ventricular enlargement,MODERNA,54.0,ÀYÀVµh
+M,N,Abdominal pain,Acoustic stimulation tests normal,Blood pressure increased,Colonoscopy normal,Computerised tomogram abdomen abnormal,PFIZER\BIONTECH,51.0,¥|ªÏµh
+M,N,Headache,Injection site pain,Intensive care,Painful respiration,Pyrexia,MODERNA,22.0,ÀYÀVµh
+F,N,Abdominal pain,Computerised tomogram abdomen abnormal,Nausea,Small intestinal obstruction,Vomiting,PFIZER\BIONTECH,65.0,¥|ªÏµh
+F,N,Back pain,Pericardial drainage,Pericardial drainage test normal,Pericardial effusion,Pericarditis,MODERNA,78.0,Âß·Fµh
+F,N,Eye pain,Eyelid pain,Neuralgia,Ophthalmic herpes zoster,Pruritus,PFIZER\BIONTECH,30.0,ÀYÀVµh
+F,N,Headache,Heart rate increased,Injection site erythema,Injection site pain,Mean cell haemoglobin,PFIZER\BIONTECH,53.0,ÀYÀVµh
+F,N,Abdominal pain upper,Acute myocardial infarction,Back pain,C-reactive protein normal,Computerised tomogram abdomen normal,PFIZER\BIONTECH,18.0,¥|ªÏµh
+M,N,Abdominal pain,Chest X-ray,Computerised tomogram neck,Dysphagia,Dysphonia,MODERNA,27.0,¥|ªÏµh
+F,N,Chest pain,Dyspnoea,Paraesthesia oral,Swollen tongue,Throat clearing,MODERNA,75.0,Âß·Fµh
+F,N,Abdominal pain,Apolipoprotein,Arthralgia,Back pain,Blood magnesium,MODERNA,38.0,¥|ªÏµh
+F,N,Abdominal pain upper,Adnexa uteri pain,Blood test abnormal,Chest pain,Computerised tomogram abnormal,MODERNA,27.0,¥|ªÏµh
+M,N,Abdominal pain lower,Ageusia,Condition aggravated,Pain,Pain in extremity,PFIZER\BIONTECH,83.0,¥|ªÏµh
+F,N,Neck pain,Pain,Peripheral swelling,Pyrexia,Swelling face,MODERNA,47.0,ÀYÀVµh
+F,N,Abdominal pain,Appendicectomy,Appendicitis,Chills,Computerised tomogram abdomen abnormal,PFIZER\BIONTECH,29.0,¥|ªÏµh
+M,N,Abdominal pain upper,Abnormal behaviour,Blood test,Communication disorder,Confusional state,PFIZER\BIONTECH,24.0,¥|ªÏµh
+F,N,Pain in extremity,Respiratory syncytial virus test negative,SARS-CoV-2 test positive,Serum ferritin normal,Troponin I normal,PFIZER\BIONTECH,77.0,¨ä¥Lµh
+F,N,Neck pain,Nitrite urine absent,Pain,Protein urine absent,Red blood cells urine negative,PFIZER\BIONTECH,41.0,ÀYÀVµh
+F,N,Abdominal pain,Flushing,Muscle spasms,Respiratory distress,Swollen tongue,PFIZER\BIONTECH,19.0,¥|ªÏµh
+M,N,Headache,Herpes zoster meningitis,Loss of consciousness,Lumbar puncture,Magnetic resonance imaging head,PFIZER\BIONTECH,53.0,ÀYÀVµh
+M,N,Abdominal pain upper,Blood creatine phosphokinase MB increased,Chest pain,Echocardiogram normal,Electrocardiogram ST segment elevation,PFIZER\BIONTECH,16.0,¥|ªÏµh
+M,N,Headache,Pericarditis,Pyrexia,Troponin T increased,Troponin increased,PFIZER\BIONTECH,16.0,ÀYÀVµh
+F,Y,Chest pain,Chills,Death,Fatigue,Flatulence,MODERNA,92.0,Âß·Fµh
+F,N,Headache,Mobility decreased,Nausea,Troponin increased,Vomiting,PFIZER\BIONTECH,91.0,ÀYÀVµh
+F,N,Back pain,Cold sweat,Cough,Feeling cold,Hyperhidrosis,MODERNA,68.0,Âß·Fµh
+F,N,Chest pain,Computerised tomogram thorax abnormal,Condition aggravated,Dyspnoea,Electrocardiogram,PFIZER\BIONTECH,58.0,Âß·Fµh
+M,N,Abdominal pain upper,Adrenocortical insufficiency acute,Blood lactic acid,Blood pressure decreased,Electrocardiogram,MODERNA,22.0,¥|ªÏµh
+F,N,Abdominal pain,Asthenia,COVID-19,Dyspnoea,Hospitalisation,MODERNA,82.0,¥|ªÏµh
+F,N,Abdominal pain upper,Back pain,Blood test normal,Diarrhoea,Fatigue,MODERNA,26.0,¥|ªÏµh
+F,N,Axillary pain,Body temperature increased,Body temperature normal,Colonoscopy,Erythema,PFIZER\BIONTECH,74.0,¥|ªÏµh
+M,N,Back pain,Bradycardia,Cardiac pacemaker insertion,Dyspnoea,Electrocardiogram abnormal,MODERNA,66.0,Âß·Fµh
+M,N,Abdominal pain upper,Biliary obstruction,Cholecystitis acute,Cholelithiasis,Gallbladder enlargement,PFIZER\BIONTECH,76.0,¥|ªÏµh
+M,N,Chest pain,Electrocardiogram normal,Fall,Flank pain,Head injury,JANSSEN,67.0,Âß·Fµh
+F,N,Headache,Hot flush,Hypoaesthesia,Myalgia,Nausea,MODERNA,43.0,ÀYÀVµh
+F,N,Pain in extremity,Paraesthesia,Pyrexia,Renal pain,Sleep disorder,MODERNA,43.0,¨ä¥Lµh
+F,N,Abdominal pain upper,Cholecystectomy,Cholecystitis,Full blood count,Magnetic resonance imaging,MODERNA,53.0,¥|ªÏµh
+F,N,Abdominal pain upper,Cholecystectomy,Cholecystitis,Full blood count,Magnetic resonance imaging,MODERNA,53.0,¥|ªÏµh
+F,N,Headache,Musculoskeletal stiffness,Pain,Pyrexia,Skin warm,JANSSEN,71.0,ÀYÀVµh
+F,N,Abdominal pain lower,Abdominal wall haematoma,Computerised tomogram,Full blood count abnormal,Haemoglobin decreased,MODERNA,61.0,¥|ªÏµh
+M,N,Headache,Insomnia,Myalgia,Pollakiuria,Thirst,JANSSEN,28.0,ÀYÀVµh
+F,N,Back pain,Blood test normal,Cardiac stress test normal,Chest X-ray normal,Chest discomfort,PFIZER\BIONTECH,68.0,Âß·Fµh
+F,N,Headache,Heart rate increased,Myalgia,Nausea,Pyrexia,JANSSEN,57.0,ÀYÀVµh
+F,N,Headache,Increased upper airway secretion,Influenza like illness,Myalgia,Pyrexia,MODERNA,44.0,ÀYÀVµh
+M,N,Back pain,Blood lactic acid increased,Chills,Dehydration,Heart rate increased,JANSSEN,43.0,Âß·Fµh
+F,N,Abdominal pain upper,Asthenia,Back pain,Chills,Decreased appetite,JANSSEN,40.0,¥|ªÏµh
+M,N,Headache,Heart rate increased,Injection site pain,Insomnia,Pain,JANSSEN,22.0,ÀYÀVµh
+F,N,Abdominal pain upper,Chills,Dizziness,Fatigue,Feeling cold,JANSSEN,44.0,¥|ªÏµh
+F,N,Headache,Hyperhidrosis,Retching,Urinary incontinence,Vomiting,JANSSEN,44.0,ÀYÀVµh
+F,N,Chest pain,Chills,Headache,Heart rate increased,Pyrexia,JANSSEN,60.0,Âß·Fµh
+F,N,Back pain,Blood pressure increased,Cardiac stress test,Chest pain,Computerised tomogram,PFIZER\BIONTECH,69.0,Âß·Fµh
+F,N,Abdominal pain upper,Arthralgia,Chills,Fatigue,Headache,JANSSEN,63.0,¥|ªÏµh
+F,N,Back pain,Chills,Decreased appetite,Diarrhoea,Feeling abnormal,JANSSEN,48.0,Âß·Fµh
+F,N,Abdominal pain upper,Biliary colic,Dyspnoea,Fatigue,Hepatic enzyme increased,PFIZER\BIONTECH,37.0,¥|ªÏµh
+F,N,Headache,Mobility decreased,Pain,Photophobia,Pyrexia,JANSSEN,51.0,ÀYÀVµh
+F,N,Back pain,Chills,Fatigue,Myalgia,Pyrexia,JANSSEN,52.0,Âß·Fµh
+M,N,Headache,Nausea,Pain,Pyrexia,Respiratory tract congestion,JANSSEN,35.0,ÀYÀVµh
+M,N,Abdominal pain,Adrenal mass,Anaemia,Cardiac arrest,Diarrhoea,MODERNA,87.0,¥|ªÏµh
+M,N,Abdominal pain,Adrenal mass,Anaemia,Cardiac arrest,Diarrhoea,MODERNA,87.0,¥|ªÏµh
+M,N,Chest pain,Electrocardiogram normal,Paraesthesia,Tongue disorder,Troponin normal,PFIZER\BIONTECH,81.0,Âß·Fµh
+F,N,Abdominal pain upper,Fatigue,Headache,Myalgia,Pain,JANSSEN,59.0,¥|ªÏµh
+F,N,Abdominal pain upper,Arthralgia,Dizziness,Dyspepsia,Headache,JANSSEN,41.0,¥|ªÏµh
+F,N,Chest pain,Electrocardiogram,Headache,Hypertensive crisis,Laboratory test,PFIZER\BIONTECH,40.0,Âß·Fµh
+F,N,Chest pain,Electrocardiogram,Headache,Hypertensive crisis,Laboratory test,PFIZER\BIONTECH,40.0,Âß·Fµh
+F,N,Back pain,Blindness,Chills,Dizziness,Feeling cold,JANSSEN,29.0,Âß·Fµh
+F,N,Headache,Hyperhidrosis,Injection site pain,Musculoskeletal stiffness,Pain,JANSSEN,29.0,ÀYÀVµh
+F,N,Pain in extremity,Pain of skin,Pulmonary pain,Pyrexia,Respiratory symptom,PFIZER\BIONTECH,67.0,¨ä¥Lµh
+M,N,Headache,Myalgia,Pain,Paranasal sinus discomfort,Pyrexia,JANSSEN,40.0,ÀYÀVµh
+F,N,Abdominal pain upper,Chills,Hyperhidrosis,Migraine,Nausea,JANSSEN,20.0,¥|ªÏµh
+F,N,Back pain,Chills,Cough,Dyspnoea,Headache,JANSSEN,31.0,Âß·Fµh
+F,Y,Chest pain,Condition aggravated,Death,Pulse absent,Resuscitation,MODERNA,79.0,Âß·Fµh
+M,N,Abdominal pain upper,Blood test,Computerised tomogram,Eye pain,Flank pain,MODERNA,23.0,¥|ªÏµh
+F,N,Back pain,Headache,Inappropriate schedule of product administration,Meningitis,Pyrexia,PFIZER\BIONTECH,26.0,Âß·Fµh
+M,N,Abdominal pain,Appendicectomy,Appendicitis,Arthralgia,Blood test,JANSSEN,45.0,¥|ªÏµh
+F,N,Headache,Livedo reticularis,Pyrexia,Rash,Rash erythematous,MODERNA,41.0,ÀYÀVµh
+F,N,Breast pain,Chills,Dyspepsia,Headache,Limb discomfort,JANSSEN,57.0,Âß·Fµh
+F,N,Pleuritic pain,Pulmonary embolism,Pulmonary infarction,Respiratory syncytial virus test negative,SARS-CoV-2 test negative,PFIZER\BIONTECH,73.0,Âß·Fµh
+F,N,Back pain,COVID-19,Glycosylated haemoglobin,Headache,Muscle spasms,PFIZER\BIONTECH,52.0,Âß·Fµh
+F,N,Back pain,Chills,Diarrhoea,Ear pain,Headache,JANSSEN,51.0,Âß·Fµh
+F,N,Chest pain,Eye pain,Headache,Nausea,Pain,JANSSEN,61.0,Âß·Fµh
+F,N,Headache,Injection site pain,Musculoskeletal stiffness,Pain,Skin sensitisation,JANSSEN,53.0,ÀYÀVµh
+M,N,Headache,Hyperhidrosis,Hypersomnia,Hypoxia,Lumbar puncture abnormal,MODERNA,67.0,ÀYÀVµh
+F,N,Back pain,Headache,Lacrimation increased,Pain in extremity,Pyrexia,JANSSEN,48.0,Âß·Fµh
+M,N,Abdominal pain upper,Appendicitis,Chills,Hyperhidrosis,Surgery,PFIZER\BIONTECH,33.0,¥|ªÏµh
+F,N,Headache,Pain,Retching,Throat irritation,Throat tightness,PFIZER\BIONTECH,47.0,ÀYÀVµh
+F,N,Headache,Heart rate,Heart rate increased,Inappropriate schedule of product administration,Nausea,MODERNA,36.0,ÀYÀVµh
+F,N,Abdominal pain upper,Computerised tomogram,Nephrolithiasis,Ultrasound abdomen,Ultrasound scan vagina,MODERNA,37.0,¥|ªÏµh
+M,N,Chest pain,Chronic obstructive pulmonary disease,Depressed level of consciousness,Hyperkalaemia,Hypoxia,JANSSEN,60.0,Âß·Fµh
+M,N,Back pain,Bacterial test positive,Extradural abscess,Extradural haematoma,Haematoma evacuation,PFIZER\BIONTECH,67.0,Âß·Fµh
+F,N,Abdominal pain,Alanine aminotransferase normal,Anion gap,Aspartate aminotransferase normal,Bacterial test negative,JANSSEN,36.0,¥|ªÏµh
+M,N,Back pain,Blood lactic acid increased,Computerised tomogram head normal,Endotracheal intubation complication,Eosinophil percentage increased,PFIZER\BIONTECH,71.0,Âß·Fµh
+M,N,Headache,Nausea,Red blood cell count decreased,Red cell distribution width increased,Rhinorrhoea,MODERNA,64.0,ÀYÀVµh
+F,N,Headache,Intraocular pressure test,Lacrimation increased,Pain in extremity,Peripheral swelling,MODERNA,52.0,ÀYÀVµh
+F,Y,Chest pain,Death,Nausea,Resuscitation,Syncope,MODERNA,74.0,Âß·Fµh
+F,N,Headache,Laboratory test,Magnetic resonance imaging head,Malaise,Scan with contrast,PFIZER\BIONTECH,82.0,ÀYÀVµh
+F,N,Abdominal pain,Back pain,Fall,Spinal compression fracture,Thoracic vertebral fracture,PFIZER\BIONTECH,86.0,¥|ªÏµh
+M,N,Back pain,Blood culture negative,Chest X-ray abnormal,Chills,Condition aggravated,MODERNA,71.0,Âß·Fµh
+M,N,Abdominal pain,Blood sodium decreased,Cerebrovascular accident,Fatigue,Hyponatraemia,PFIZER\BIONTECH,84.0,¥|ªÏµh
+F,Y,Chest pain,Death,Headache,Nausea,Pain,MODERNA,56.0,Âß·Fµh
+F,N,Chest pain,Chills,Cough,Dyspnoea,Endotracheal intubation,PFIZER\BIONTECH,64.0,Âß·Fµh
+F,N,Headache,Hyperhidrosis,Pain,Pyrexia,Sedative therapy,PFIZER\BIONTECH,64.0,ÀYÀVµh
+M,Y,Chest pain,Death,Pain,Posture abnormal,Resuscitation,PFIZER\BIONTECH,62.0,Âß·Fµh
+F,Y,Abdominal pain,Death,Decreased appetite,Headache,Unresponsive to stimuli,PFIZER\BIONTECH,35.0,¥|ªÏµh
+F,Y,Abdominal pain,Death,Decreased appetite,Headache,Unresponsive to stimuli,PFIZER\BIONTECH,35.0,¥|ªÏµh
+M,Y,Abdominal pain lower,Acute kidney injury,Blood culture,Brain natriuretic peptide,Computerised tomogram abdomen,PFIZER\BIONTECH,82.0,¥|ªÏµh
+F,Y,Abdominal pain upper,Cardiac arrest,Corneal reflex decreased,Death,Diarrhoea,PFIZER\BIONTECH,60.0,¥|ªÏµh
