@@ -4,6 +4,7 @@ title: "DOE-report2"
 
 ## 資料前處理
 ```{r, message=FALSE, warning=FALSE}
+#load data
 setwd("C:/Users/user/Desktop/R/DOE/Data")
 library(readr)
 library(dplyr)
