@@ -24,12 +24,18 @@ for(i in df$AGE_YRS){
     age = append(age, "75_95")
   }
 }
-df$age = age
+df$age = as.character(age)
 
-df_ijk_trans  = function(df, age, pain, vax){
-  df_res = df %>% filter(age == as.character(age) & Pain_type == pain & VAX_MANU==vax)
-  return(df_res)
+# df_ijk_trans  = function(df, age, pain, vax){
+#   df_res = df %>% filter(age == as.character(age) & Pain_type == pain & VAX_MANU==vax)
+#   return(df_res)
+# }
+
+df_ijk_trans_test  = function(df, age, pain, vax){
+  index = which(df$age == age & df$Pain_type == pain & df$VAX_MANU == vax)
+  return(df[index,])
 }
+
 
 age_iter = c("15_35", "35_55", "55_75", "75_95")
 # pain_iter = c("¥|ªÏµh", "¨ä¥Lµh", "ÀYÀVµh", "Âß·Fµh")
@@ -67,42 +73,12 @@ for(k in vax_iter){
       n_obs = append(n_obs, tmp$n_obs)
       cell_mean = append(cell_mean, tmp$mean)
       cell_std = append(cell_std, tmp$std)
-      }
     }
+  }
 }
 coln = age_iter 
 rown = pain_iter
 
-# "MODERNA"
-matrix(c(n_obs[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-matrix(c(n_obs[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-matrix(c(n_obs[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-
-# "PFIZER\\BIONTECH"
-matrix(c(n_obs[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-matrix(c(n_obs[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-matrix(c(n_obs[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-
-# "JANSSEN"
-matrix(c(n_obs[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-matrix(c(n_obs[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-matrix(c(n_obs[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-
-
-
-######
-# for(k in vax_iter){
-#   for(i in age_iter){
-#     for(j in pain_iter){
-#       print(df_ijk_trans(df, age = i,pain = j, vax = k) %>% nrow())
-#       print(c(i,j,k))
-#       print("====================")
-#       if(df_ijk_trans(df, age = i,pain = j, vax = k) %>% nrow()==0){
-#         # print(c(i,j,k))
-#       }
-#     }
-#   }
-# }
 
 
 
