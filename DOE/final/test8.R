@@ -194,6 +194,28 @@ marry_rate_interval = function(marry_rate){
     return("5.5 ~ 6")
   }
 }
+crim_rate = function(df){
+  res = c()
+  uniq_dist = unique(df$district) 
+  for(i in uniq_dist){
+    df_dist = df %>% filter(district==i)
+    num_of_crime = nrow(df_dist) 
+    rate_of_crime = num_of_crime/(df_dist$popula[1]) 
+    res = append(res, rate_of_crime)
+  }
+  return(res)
+}
+crim_rate_test = function(df){
+  res = c()
+  uniq_dist = unique(df$district) 
+  for(i in uniq_dist){
+    df_dist = df %>% filter(district==i)
+    num_of_crime = nrow(df_dist) 
+    rate_of_crime = num_of_crime/(df_dist$popula[1]) 
+    res = append(res, rate_of_crime)
+  }
+  return(res*100)
+}
 # wash temperature####
 df_temp$y_m = sapply(df_temp$Date, magic) %>% as.vector()
 df_temp = df_temp[,-1]
@@ -285,5 +307,43 @@ df$type = sapply(df$type, crmin_trans) %>% as.vector()
 df$marr_level =  sapply(df$marr,marry_rate_interval) %>% as.vector()
 df = df[,c(1,3,5,6:9)]
 
-df
+# test_df = df %>% filter(marr_level == "5 ~ 5.5") %>% filter(temp_level == "20~25") %>% filter(type == "rape")
+
+marry_iter = c("4.5 ~ 5", "5 ~ 5.5", "5.5 ~ 6")
+temp_iter = c("15~20", "20~25", "25~30")
+type_iter = c("drug", "rape", "robbey", "theft") 
+
+n_obs =  c()
+cell_mean = c()
+cell_std = c()
+
+for(k in marry_iter){
+  for(i in temp_iter){
+    for(j in type_iter){
+      df_iter = df %>% filter(marr_level == k) %>% filter(temp_level == i) %>% filter(type == j)
+      y = crim_rate(df_iter)
+      n_obs = append(n_obs, length(y))
+      cell_mean = append(cell_mean, mean(y))
+      cell_std = append(cell_std, var(y))
+    }
+  }
+}
+
+# test = df %>% filter(marr_level == "4.5 ~ 5") %>% filter(temp_level == "15~20") %>% filter(type == "rape")
+coln = type_iter
+rown = temp_iter
+
+matrix(c(n_obs[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(cell_mean[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(cell_std[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+
+matrix(c(n_obs[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(cell_mean[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(cell_std[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+
+matrix(c(n_obs[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(cell_mean[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+matrix(c(cell_std[1:12]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
+
+
 
