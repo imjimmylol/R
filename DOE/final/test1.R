@@ -23,9 +23,31 @@ loca_trans = function(raw_loca){
   return(str_sub(raw_loca, start = 1, end = 3))
   
 }
+
+
 df$district = df$loca %>% loca_trans() 
 tmp = df$dt %>% d_trans()  # a=as.POSIXct("2014-05-01", format="%Y-%m-%d")
 date = c()
+
+year_index = c()
+goal_year = "2017"
+
+for(i in length(tmp)){
+  y = str_sub(tmp[i], start = 1, end = 4)
+  if(y == goal_year){
+    year_index = append(year_index, i)
+    
+  }
+  else{
+    next
+  }
+}
+
+year_index
+
+
+
+
 for(i in tmp){
   qq = as.POSIXct(i, format="%Y-%m-%d")
   date = append(date, qq)

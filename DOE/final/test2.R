@@ -1,7 +1,7 @@
 setwd("C:/Users/user/Desktop/R/DOE/Data")
 library(dplyr)
 library(stringr)
-df = readxl::read_xlsx("crim106.xlsx")
+df = readxl::read_xlsx("crim105.xlsx")
 
 df = df %>% filter((type=="毒品")|(type=="機車竊盜")|(type=="汽車竊盜")|(type=="住宅竊盜")|(type=="強制性交")|(type=="強盜")|(type=="搶奪"))
 
