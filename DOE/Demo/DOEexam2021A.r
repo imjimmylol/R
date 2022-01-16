@@ -18,7 +18,6 @@ round(tapply(plant[,1],INDEX=plant[,2],sd),2)
 
 plot(grain~density,data=plant,pch=16,col=3,cex=1.5)    # Figure 3.2,  p. 85
 
-
 ################
 plant.fit1 <- lm(grain~as.factor(density),data=plant) # 按照英文字順序或數字做為回歸的base line
 summary(plant.fit1)
@@ -49,10 +48,10 @@ palnt.SNK <- SNK.test(palnt.aov1, "as.factor(density)")
 
 
 # 製作 on poly
-# c4 <- contr.poly(5) # 5個level
-# x = scale(c4, scale = 1/sqrt(scan())) # 10 14 10 70
-# x1 = zapsmall(x, digits = 15)
-# p1 = cbind(1, x1)
+c4 <- contr.poly(5) # 5個level
+x = scale(c4, scale = 1/sqrt(scan())) # 10 14 10 70
+x1 = zapsmall(x, digits = 15)
+p1 = cbind(1, x1)
 
 
 library(car)

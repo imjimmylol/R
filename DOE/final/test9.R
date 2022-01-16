@@ -102,7 +102,7 @@ popl_trans = function(district){
   else if(district == "臺南市 "){
     return(1874917)
   }
-  }
+}
 temp_dummy = function(temp){
   if(temp<=20){
     return("15~20")
@@ -194,6 +194,20 @@ marry_rate_interval = function(marry_rate){
     return("5.5 ~ 6")
   }
 }
+marry_rate_test = function(marry_rate){
+  if(marry_rate>4.5&marry_rate<=4.83){
+    return("4.5 ~ 4.83")
+  }
+  else if(marry_rate>4.83&marry_rate<=5.16){
+    return("4.83 ~ 5.16")
+  }
+  else if(marry_rate>5.16&marry_rate<=5.5){
+    return("5.16 ~ 5.5")
+  }
+  else(
+    return(NA)
+  )
+  }
 crim_rate = function(df){
   res = c()
   uniq_dist = unique(df$district) 
@@ -201,7 +215,7 @@ crim_rate = function(df){
     df_dist = df %>% filter(district==i)
     num_of_crime = nrow(df_dist) 
     rate_of_crime = num_of_crime/(df_dist$popula[1]) 
-    res = append(res, rate_of_crime)
+    res = append(res, rate_of_crime*10000)
   }
   return(res)
 }
@@ -212,9 +226,12 @@ crim_rate_test = function(df){
     df_dist = df %>% filter(district==i)
     num_of_crime = nrow(df_dist) 
     rate_of_crime = num_of_crime/(df_dist$popula[1]) 
-    res = append(res, rate_of_crime)
+    res = append(res, rate_of_crime*10000)
   }
   return(res*100)
+}
+cal_crime = function(df){
+  
 }
 # wash temperature####
 df_temp$y_m = sapply(df_temp$Date, magic) %>% as.vector()
@@ -296,7 +313,7 @@ for(i in 1:nrow(df)){
 df = df[-error_index,]
 df$popula = pop
 # 併入結婚率####
-df$marr = sapply(df$district,marry_trans) %>% as.vector()
+df$marr = sapply(df$district,marry_trans) %>% as.vector() 
 # finally clean####
 df %>% head()
 # create temp dummy
@@ -304,13 +321,14 @@ df$temp_level = sapply(df$temp, temp_dummy) %>% as.vector()
 # create crim dummy
 df$type = sapply(df$type, crmin_trans) %>% as.vector()
 # create marry dummy
-df$marr_level =  sapply(df$marr,marry_rate_interval) %>% as.vector()
+df$marr_level =  sapply(df$marr,marry_rate_test) %>% as.vector()
 # rio::export(df, "clean_data.xlsx")
 df = df[,c(1,3,5,6:9)]
 
 # test_df = df %>% filter(marr_level == "5 ~ 5.5") %>% filter(temp_level == "20~25") %>% filter(type == "rape")
+rio::export(df, "clean_data.xlsx")
 
-marry_iter = c("4.5 ~ 5", "5 ~ 5.5", "5.5 ~ 6")
+marry_iter = c("4.5 ~ 4.83", "4.83 ~ 5.16", "5.16 ~ 5.5")
 temp_iter = c("15~20", "20~25", "25~30")
 type_iter = c("drug", "rape", "robbey", "theft") 
 
@@ -330,6 +348,36 @@ for(k in marry_iter){
   }
 }
 
+
+temperature = c()
+crime_type = c()
+marry_level = c()
+crime_rate = c()
+
+for(k in marry_iter){
+  for(i in temp_iter){
+    for(j in type_iter){
+      df_iter = df %>% filter(marr_level == k) %>% filter(temp_level == i) %>% filter(type == j)
+      y = crim_rate(df_iter)
+      for(city in y){
+        temperature = append(temperature, i)
+        marry_level = append(marry_level, k)
+        crime_rate = append(crime_rate, city)
+        crime_type = append(crime_type, j)
+      }
+    }
+  }
+}
+
+# df_res = data.frame(
+#   temperature = temperature,
+#   crime_type  = crime_type,
+#   marry_level = marry_level,
+#   crime_rate = crime_rate
+# )
+# 
+# rio::export(df_res, "aov_data.xlsx")
+
 # test = df %>% filter(marr_level == "4.5 ~ 5") %>% filter(temp_level == "15~20") %>% filter(type == "rape")
 coln = type_iter
 rown = temp_iter
@@ -345,7 +393,7 @@ matrix(c(cell_std[13:24]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown
 matrix(c(n_obs[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
 c = matrix(c(cell_mean[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
 matrix(c(cell_std[25:36]), nrow  = 3, ncol = 4,byrow = TRUE,dimnames = list(rown, coln))
-
+a
 qq = as.data.frame(a)
 y = c()
 x = c()
@@ -366,8 +414,11 @@ df_plot = data.frame(
 library(ggplot2)
 
 ggplot(df_plot, aes(x=crime_dummy, y=mean, color=temperature, shape=temperature)) +
-  geom_point() + geom_line() + xlab("犯罪種類") + ggtitle("結婚率 4.5 ~ 5")
-
+  geom_point() + geom_line() + xlab("犯罪種類") + ggtitle("結婚率 4.5 ~ 4.83")
+ggplot(df_plot, aes(x=crime_dummy, y=mean, color=temperature, shape=temperature)) +
+  geom_point() + geom_line() + xlab("犯罪種類") + ggtitle("結婚率 4.83 ~ 5.16")
+ggplot(df_plot, aes(x=crime_dummy, y=mean, color=temperature, shape=temperature)) +
+  geom_point() + geom_line() + xlab("犯罪種類") + ggtitle("結婚率 5.16 ~ 5.5")
 
 qq = as.data.frame(c)
 y = c()
