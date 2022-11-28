@@ -1,4 +1,4 @@
-#pre-proccess####
+#pre-proccess#####
 getwd()
 setwd(".\\data")
 data1 <- read.csv("airline_survey.csv")
